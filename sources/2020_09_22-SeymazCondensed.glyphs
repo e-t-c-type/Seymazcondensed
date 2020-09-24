@@ -70,12 +70,12 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub t by t.ss01;\012sub one by one.ss01;\012";
+code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub t by t.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub t by t.ss01;\012sub one by one.ss01;\012";
+code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub t by t.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
 name = ss01;
 }
 );
