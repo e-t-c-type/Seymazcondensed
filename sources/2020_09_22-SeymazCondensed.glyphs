@@ -70,12 +70,12 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub t by t.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
+code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub t by t.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
+code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
 name = ss01;
 }
 );
@@ -11020,7 +11020,7 @@ unicode = 0078;
 {
 color = 4;
 glyphname = y;
-lastChange = "2020-09-13 09:14:08 +0000";
+lastChange = "2020-09-24 13:01:38 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -11028,20 +11028,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"45 0 LINE",
-"52 0 LINE",
-"52 -130 LINE",
-"132 -130 LINE",
-"132 0 LINE",
-"139 0 LINE",
-"178 45 LINE",
-"178 600 LINE",
 "98 600 LINE",
 "98 75 LINE",
 "86 75 LINE",
 "86 600 LINE",
 "6 600 LINE",
-"6 45 LINE"
+"6 45 LINE",
+"46 0 LINE",
+"98 0 LINE",
+"98 -55 LINE",
+"86 -55 LINE",
+"86 -12 LINE",
+"6 -12 LINE",
+"6 -85 LINE",
+"45 -130 LINE",
+"139 -130 LINE",
+"178 -85 LINE",
+"178 600 LINE"
 );
 }
 );
@@ -11169,20 +11172,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"14 0 LINE",
-"18 0 LINE",
-"18 -90 LINE",
-"30 -90 LINE",
-"30 0 LINE",
-"34 0 LINE",
-"42 8 LINE",
-"42 600 LINE",
 "30 600 LINE",
 "30 11 LINE",
 "18 11 LINE",
 "18 600 LINE",
 "6 600 LINE",
-"6 8 LINE"
+"6 8 LINE",
+"14 0 LINE",
+"30 0 LINE",
+"30 -78 LINE",
+"18 -78 LINE",
+"18 -12 LINE",
+"6 -12 LINE",
+"6 -82 LINE",
+"14 -90 LINE",
+"34 -90 LINE",
+"42 -82 LINE",
+"42 600 LINE"
 );
 }
 );
@@ -11464,157 +11470,8 @@ unicode = 007A;
 },
 {
 color = 4;
-glyphname = t.ss01;
-lastChange = "2020-07-13 09:25:58 +0000";
-layers = (
-{
-layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-paths = (
-{
-closed = 1;
-nodes = (
-"86 525 LINE",
-"93 525 LINE",
-"93 600 LINE",
-"86 600 LINE",
-"86 690 LINE",
-"6 690 LINE",
-"6 0 LINE",
-"86 0 LINE"
-);
-}
-);
-userData = {
-assembly = "PUSHW[ ]\011/* 1 value pushed */
-10 
-CALL[ ]\011/* CallFunction */
-PUSHW[ ]\011/* 4 values pushed */
-12 12 5 14 
-CALL[ ]\011/* CallFunction */
-PUSHW[ ]\011/* 1 value pushed */
-12 
-SRP0[ ]\011/* SetRefPoint0 */
-PUSHW[ ]\011/* 1 value pushed */
-0 
-MDRP[10000]\011/* MoveDirectRelPt */
-PUSHW[ ]\011/* 3 values pushed */
-3 5 12 
-SRP1[ ]\011/* SetRefPoint1 */
-SRP2[ ]\011/* SetRefPoint2 */
-IP[ ]\011/* InterpolatePts */
-PUSHW[ ]\011/* 1 value pushed */
-3 
-MDAP[1]\011/* MoveDirectAbsPt */
-PUSHW[ ]\011/* 1 value pushed */
-7 
-MDRP[10000]\011/* MoveDirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-3 
-SRP0[ ]\011/* SetRefPoint0 */
-PUSHW[ ]\011/* 2 values pushed */
-14 9 
-MIRP[10100]\011/* MoveIndirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-9 
-MDRP[10000]\011/* MoveDirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-12 
-SRP0[ ]\011/* SetRefPoint0 */
-PUSHW[ ]\011/* 1 value pushed */
-16 
-MDRP[11100]\011/* MoveDirectRelPt */
-SVTCA[0]\011/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-RCVT[ ]\011/* ReadCVT */
-IF[ ]\011/* If */
-PUSHW[ ]\011/* 1 value pushed */
-8 
-MDAP[1]\011/* MoveDirectAbsPt */
-ELSE[ ]\011/* Else */
-PUSHW[ ]\011/* 2 values pushed */
-8 19 
-MIAP[0]\011/* MoveIndirectAbsPt */
-EIF[ ]\011/* EndIf */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-RCVT[ ]\011/* ReadCVT */
-IF[ ]\011/* If */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-MDAP[1]\011/* MoveDirectAbsPt */
-ELSE[ ]\011/* Else */
-PUSHW[ ]\011/* 2 values pushed */
-6 17 
-MIAP[0]\011/* MoveIndirectAbsPt */
-EIF[ ]\011/* EndIf */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-RCVT[ ]\011/* ReadCVT */
-IF[ ]\011/* If */
-PUSHW[ ]\011/* 1 value pushed */
-10 
-MDAP[1]\011/* MoveDirectAbsPt */
-ELSE[ ]\011/* Else */
-PUSHW[ ]\011/* 2 values pushed */
-10 17 
-MIAP[0]\011/* MoveIndirectAbsPt */
-EIF[ ]\011/* EndIf */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-RCVT[ ]\011/* ReadCVT */
-IF[ ]\011/* If */
-PUSHW[ ]\011/* 1 value pushed */
-1 
-MDAP[1]\011/* MoveDirectAbsPt */
-ELSE[ ]\011/* Else */
-PUSHW[ ]\011/* 2 values pushed */
-1 13 
-MIAP[0]\011/* MoveIndirectAbsPt */
-EIF[ ]\011/* EndIf */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-SRP0[ ]\011/* SetRefPoint0 */
-PUSHW[ ]\011/* 2 values pushed */
-4 8 
-MIRP[10100]\011/* MoveIndirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-12 
-MDRP[10000]\011/* MoveDirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-13 
-MDRP[10000]\011/* MoveDirectRelPt */
-IUP[0]\011/* InterpolateUntPts */
-IUP[1]\011/* InterpolateUntPts */";
-};
-width = 92;
-},
-{
-layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
-paths = (
-{
-closed = 1;
-nodes = (
-"18 589 LINE",
-"24 589 LINE",
-"24 600 LINE",
-"18 600 LINE",
-"18 690 LINE",
-"6 690 LINE",
-"6 0 LINE",
-"18 0 LINE"
-);
-}
-);
-width = 24;
-}
-);
-note = t;
-},
-{
-color = 4;
 glyphname = y.ss01;
-lastChange = "2020-09-13 08:22:55 +0000";
+lastChange = "2020-09-24 13:01:45 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -11622,23 +11479,20 @@ paths = (
 {
 closed = 1;
 nodes = (
+"45 0 LINE",
+"52 0 LINE",
+"52 -130 LINE",
+"132 -130 LINE",
+"132 0 LINE",
+"139 0 LINE",
+"178 45 LINE",
+"178 600 LINE",
 "98 600 LINE",
 "98 75 LINE",
 "86 75 LINE",
 "86 600 LINE",
 "6 600 LINE",
-"6 45 LINE",
-"46 0 LINE",
-"98 0 LINE",
-"98 -55 LINE",
-"86 -55 LINE",
-"86 -12 LINE",
-"6 -12 LINE",
-"6 -85 LINE",
-"45 -130 LINE",
-"139 -130 LINE",
-"178 -85 LINE",
-"178 600 LINE"
+"6 45 LINE"
 );
 }
 );
@@ -11766,23 +11620,20 @@ paths = (
 {
 closed = 1;
 nodes = (
+"14 0 LINE",
+"18 0 LINE",
+"18 -90 LINE",
+"30 -90 LINE",
+"30 0 LINE",
+"34 0 LINE",
+"42 8 LINE",
+"42 600 LINE",
 "30 600 LINE",
 "30 11 LINE",
 "18 11 LINE",
 "18 600 LINE",
 "6 600 LINE",
-"6 8 LINE",
-"14 0 LINE",
-"30 0 LINE",
-"30 -78 LINE",
-"18 -78 LINE",
-"18 -12 LINE",
-"6 -12 LINE",
-"6 -82 LINE",
-"14 -90 LINE",
-"34 -90 LINE",
-"42 -82 LINE",
-"42 600 LINE"
+"6 8 LINE"
 );
 }
 );
@@ -22661,9 +22512,6 @@ d = -50;
 };
 s = {
 s = 0;
-};
-y = {
-j = 0;
 };
 };
 };
