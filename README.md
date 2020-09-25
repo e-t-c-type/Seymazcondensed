@@ -1,9 +1,13 @@
 # Seymazcondensed
 
-Seymaz Condensed, the typeface
+Seymaz Condensed, the typeface.
 
-Made by Mateo Broillet
+Inspired by 'Grecian' typefaces examples from the late XIXth century. 
 
-http:///www.mateobroillet.ch
+Made by Mateo Broillet.
 
-On a SIL Open Font License
+www.mateobroillet.ch
+
+On a SIL Open Font License. 
+
+Version beta September 2020. 
