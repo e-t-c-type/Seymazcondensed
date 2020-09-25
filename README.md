@@ -1,6 +1,4 @@
-# Seymazcondensed
-
-Seymaz Condensed, the typeface.
+# Seymaz Condensed
 
 Inspired by 'Grecian' typefaces examples from the late XIXth century. 
 
