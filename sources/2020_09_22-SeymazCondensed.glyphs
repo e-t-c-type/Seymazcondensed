@@ -38,13 +38,12 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2020-09-04 09:46:29 +0000";
+date = "2020-09-25 15:17:56 +0000";
 designer = "Mateo Broillet / e-t-c typefoundry";
 designerURL = www.mateobroillet.ch;
 familyName = Seymaz;
 featurePrefixes = (
 {
-automatic = 1;
 code = "languagesystem DFLT dflt;\012";
 name = Languagesystems;
 }
@@ -52,7 +51,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature salt;\012feature ss01;\012";
+code = "feature salt;\012feature ss01;\012feature calt;\012";
 name = aalt;
 },
 {
@@ -70,17 +69,28 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
+code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub f by f.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
+code = "sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Egrave by Egrave.ss01;\012sub F by F.ss01;\012sub J by J.ss01;\012sub L by L.ss01;\012sub T by T.ss01;\012sub f by f.ss01;\012sub y by y.ss01;\012sub one by one.ss01;\012";
 name = ss01;
+},
+{
+code = "sub f' a by f.ss01;\012sub f' aacute by f.ss01;\012sub f' acircumflex by f.ss01;\012sub f' adieresis by f.ss01;\012sub f' agrave by f.ss01;\012sub f' aring by f.ss01;\012sub f' atilde by f.ss01;\012sub f' ae by f.ss01;\012sub f' c by f.ss01;\012sub f' ccedilla by f.ss01;\012sub f' e by f.ss01;\012sub f' eacute by f.ss01;\012sub f' ecircumflex by f.ss01;\012sub f' edieresis by f.ss01;\012sub f' egrave by f.ss01;\012sub f' g by f.ss01;\012sub f' m by f.ss01;\012sub f' n by f.ss01;\012sub f' ntilde by f.ss01;\012sub f' o by f.ss01;\012sub f' oacute by f.ss01;\012sub f' ocircumflex by f.ss01;\012sub f' odieresis by f.ss01;\012sub f' ograve by f.ss01;\012sub f' oslash by f.ss01;\012sub f' otilde by f.ss01;\012sub f' oe by f.ss01;\012sub f' p by f.ss01;\012sub f' q by f.ss01;\012sub f' r by f.ss01;\012sub f' s by f.ss01;\012sub f' u by f.ss01;\012sub f' uacute by f.ss01;\012sub f' ucircumflex by f.ss01;\012sub f' udieresis by f.ss01;\012sub f' ugrave by f.ss01;\012sub f' v by f.ss01;\012sub f' w by f.ss01;\012sub f' wacute by f.ss01;\012sub f' wcircumflex by f.ss01;\012sub f' wdieresis by f.ss01;\012sub f' wgrave by f.ss01;\012sub f' x by f.ss01;\012sub f' y by f.ss01;\012sub f' yacute by f.ss01;\012sub f' ycircumflex by f.ss01;\012sub f' ydieresis by f.ss01;\012sub f' ygrave by f.ss01;\012sub f' y.ss01 by f.ss01;\012sub f' z by f.ss01;";
+name = calt;
 }
 );
 fontMaster = (
 {
+alignmentZones = (
+"{690, 16}",
+"{690, 13}",
+"{600, 13}",
+"{0, -13}",
+"{-90, -13}"
+);
 ascender = 690;
 capHeight = 690;
 descender = -90;
@@ -114,12 +124,22 @@ position = "{-91, 589}";
 },
 {
 position = "{30, 679}";
+},
+{
+position = "{39, 738}";
 }
+);
+horizontalStems = (
+11,
+78
 );
 id = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 userData = {
-GSCornerRadius = "15";
+GSCornerRadius = 7;
 };
+verticalStems = (
+12
+);
 weight = Light;
 weightValue = 50;
 width = Condensed;
@@ -127,6 +147,13 @@ widthValue = 1;
 xHeight = 600;
 },
 {
+alignmentZones = (
+"{730, 16}",
+"{690, 12}",
+"{600, 13}",
+"{0, -13}",
+"{-130, -13}"
+);
 ascender = 730;
 capHeight = 690;
 descender = -130;
@@ -158,10 +185,17 @@ position = "{178, 359}";
 position = "{98, 575}";
 }
 );
+horizontalStems = (
+75,
+118
+);
 id = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 userData = {
-GSCornerRadius = 15;
+GSCornerRadius = 43;
 };
+verticalStems = (
+80
+);
 weight = Bold;
 weightValue = 700;
 width = Condensed;
@@ -173,9 +207,39 @@ glyphs = (
 {
 color = 4;
 glyphname = A;
-lastChange = "2020-09-12 11:53:26 +0000";
+lastChange = "2020-09-25 16:13:11 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -255,6 +319,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -584,9 +678,45 @@ unicode = 00C6;
 {
 color = 4;
 glyphname = B;
-lastChange = "2020-09-12 11:53:40 +0000";
+lastChange = "2020-09-25 16:12:13 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{2, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{2, 3}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -707,6 +837,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{2, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{2, 0}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -752,9 +912,33 @@ unicode = 0042;
 {
 color = 4;
 glyphname = C;
-lastChange = "2020-09-12 11:53:42 +0000";
+lastChange = "2020-09-25 16:11:56 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -856,6 +1040,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -923,9 +1131,33 @@ unicode = 00C7;
 {
 color = 4;
 glyphname = D;
-lastChange = "2020-09-12 11:53:46 +0000";
+lastChange = "2020-09-25 16:13:18 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{1, 1}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -999,6 +1231,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{1, 1}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -1079,9 +1335,39 @@ unicode = 00D0;
 {
 color = 4;
 glyphname = E;
-lastChange = "2020-09-14 07:48:39 +0000";
+lastChange = "2020-09-25 16:13:04 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -1158,6 +1444,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -1330,9 +1646,39 @@ unicode = 00C8;
 {
 color = 4;
 glyphname = F;
-lastChange = "2020-09-12 11:54:18 +0000";
+lastChange = "2020-09-25 16:12:29 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{1, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -1411,6 +1757,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{1, 1}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -1448,9 +1824,39 @@ unicode = 0046;
 {
 color = 4;
 glyphname = G;
-lastChange = "2020-09-12 11:54:24 +0000";
+lastChange = "2020-09-25 16:13:22 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -1555,6 +1961,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -1597,9 +2033,39 @@ unicode = 0047;
 {
 color = 4;
 glyphname = H;
-lastChange = "2020-09-12 11:55:08 +0000";
+lastChange = "2020-09-25 16:13:02 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -1694,6 +2160,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -1723,9 +2219,28 @@ unicode = 0048;
 {
 color = 4;
 glyphname = I;
-lastChange = "2020-09-12 11:55:13 +0000";
+lastChange = "2020-09-25 16:14:00 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -1764,6 +2279,25 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -1921,9 +2455,33 @@ unicode = 00CC;
 {
 color = 4;
 glyphname = J;
-lastChange = "2020-09-12 11:55:16 +0000";
+lastChange = "2020-09-25 16:12:36 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -2029,6 +2587,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -2058,9 +2640,45 @@ unicode = 004A;
 {
 color = 4;
 glyphname = K;
-lastChange = "2020-09-12 11:55:19 +0000";
+lastChange = "2020-09-25 16:12:09 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 15}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -2157,6 +2775,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 15}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -2190,9 +2838,33 @@ unicode = 004B;
 {
 color = 4;
 glyphname = L;
-lastChange = "2020-09-12 11:55:22 +0000";
+lastChange = "2020-09-25 16:13:09 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -2244,6 +2916,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -2272,13 +2968,48 @@ unicode = 004C;
 {
 color = 4;
 glyphname = M;
-lastChange = "2020-09-12 11:56:10 +0000";
+lastChange = "2020-09-25 16:12:41 +0000";
 layers = (
 {
 guideLines = (
 {
 angle = 90;
 position = "{86, 615}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 16}";
+type = Stem;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -2415,6 +3146,35 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 276;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -2452,9 +3212,39 @@ unicode = 004D;
 {
 color = 4;
 glyphname = N;
-lastChange = "2020-09-12 11:56:25 +0000";
+lastChange = "2020-09-25 16:12:23 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -2560,6 +3350,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -2624,9 +3438,33 @@ unicode = 00D1;
 {
 color = 4;
 glyphname = O;
-lastChange = "2020-09-12 11:56:33 +0000";
+lastChange = "2020-09-25 16:13:20 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -2702,6 +3540,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -3072,9 +3934,39 @@ unicode = 0152;
 {
 color = 4;
 glyphname = P;
-lastChange = "2020-09-12 11:56:54 +0000";
+lastChange = "2020-09-25 16:12:43 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -3165,6 +4057,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -3269,9 +4191,44 @@ unicode = 00DE;
 {
 color = 4;
 glyphname = Q;
-lastChange = "2020-09-12 11:57:00 +0000";
+lastChange = "2020-09-25 16:11:51 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{2, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{2, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{2, 1}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{1, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -3397,6 +4354,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 185;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{2, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{2, 2}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{1, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -3442,9 +4423,45 @@ unicode = 0051;
 {
 color = 4;
 glyphname = R;
-lastChange = "2020-09-12 11:53:08 +0000";
+lastChange = "2020-09-25 16:12:57 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -3577,6 +4594,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -3616,9 +4663,39 @@ unicode = 0052;
 {
 color = 4;
 glyphname = S;
-lastChange = "2020-09-12 11:57:04 +0000";
+lastChange = "2020-09-25 16:12:45 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 20}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -3726,6 +4803,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 17}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 20}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -3765,9 +4872,38 @@ unicode = 0053;
 {
 color = 4;
 glyphname = T;
-lastChange = "2020-09-12 11:53:01 +0000";
+lastChange = "2020-09-25 16:13:00 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -3849,6 +4985,35 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 236;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -3878,9 +5043,33 @@ unicode = 0054;
 {
 color = 4;
 glyphname = U;
-lastChange = "2020-09-12 11:57:07 +0000";
+lastChange = "2020-09-25 16:12:38 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 8}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -3952,6 +5141,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 8}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -4113,9 +5326,33 @@ unicode = 00D9;
 {
 color = 4;
 glyphname = V;
-lastChange = "2020-09-12 11:57:12 +0000";
+lastChange = "2020-09-25 16:12:51 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -4165,6 +5402,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -4192,9 +5453,44 @@ unicode = 0056;
 {
 color = 4;
 glyphname = W;
-lastChange = "2020-09-12 11:53:14 +0000";
+lastChange = "2020-09-25 16:12:20 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -4323,6 +5619,41 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 276;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -4498,9 +5829,45 @@ unicode = 1E80;
 {
 color = 4;
 glyphname = X;
-lastChange = "2020-09-12 11:57:17 +0000";
+lastChange = "2020-09-25 16:12:34 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -4580,6 +5947,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 15}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -4617,9 +6014,39 @@ unicode = 0058;
 {
 color = 4;
 glyphname = Y;
-lastChange = "2020-09-12 11:57:23 +0000";
+lastChange = "2020-09-25 16:13:16 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -4702,6 +6129,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 185;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 9}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 11}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -4867,9 +6324,39 @@ unicode = 1EF2;
 {
 color = 4;
 glyphname = Z;
-lastChange = "2020-09-12 11:57:28 +0000";
+lastChange = "2020-09-25 16:13:13 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 15}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -4947,6 +6434,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 15}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -4983,9 +6500,34 @@ unicode = 005A;
 {
 color = 4;
 glyphname = E.ss01;
-lastChange = "2020-09-12 11:57:41 +0000";
+lastChange = "2020-09-25 16:13:34 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{2, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{3, 3}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -5072,6 +6614,31 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 98;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{2, 2}";
+target = "{2, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{3, 3}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -5370,9 +6937,28 @@ note = E;
 {
 color = 4;
 glyphname = J.ss01;
-lastChange = "2020-09-12 11:58:12 +0000";
+lastChange = "2020-09-25 16:10:18 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -5488,7 +7074,7 @@ note = T;
 {
 color = 4;
 glyphname = L.ss01;
-lastChange = "2020-09-12 11:58:32 +0000";
+lastChange = "2020-09-25 16:10:13 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -5566,6 +7152,25 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 1}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -5588,9 +7193,28 @@ note = T;
 {
 color = 4;
 glyphname = T.ss01;
-lastChange = "2020-09-12 11:58:36 +0000";
+lastChange = "2020-09-25 16:13:38 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 7}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -5668,6 +7292,25 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 7}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -5692,9 +7335,39 @@ note = T;
 {
 color = 4;
 glyphname = a;
-lastChange = "2020-07-06 07:39:15 +0000";
+lastChange = "2020-09-25 15:22:52 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 15}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 11}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -5819,6 +7492,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 15}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -6185,9 +7888,51 @@ unicode = 00E6;
 {
 color = 4;
 glyphname = b;
-lastChange = "2020-09-12 11:34:45 +0000";
+lastChange = "2020-09-25 15:29:31 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -6342,6 +8087,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 13}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -6382,9 +8157,33 @@ unicode = 0062;
 {
 color = 4;
 glyphname = c;
-lastChange = "2020-06-25 13:01:24 +0000";
+lastChange = "2020-09-25 15:29:36 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -6486,6 +8285,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 183;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -6553,9 +8376,51 @@ unicode = 00E7;
 {
 color = 4;
 glyphname = d;
-lastChange = "2020-09-12 11:34:41 +0000";
+lastChange = "2020-09-25 15:36:33 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -6713,6 +8578,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -6801,9 +8696,39 @@ unicode = 00F0;
 {
 color = 4;
 glyphname = e;
-lastChange = "2020-06-25 13:01:24 +0000";
+lastChange = "2020-09-25 16:07:11 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -6900,6 +8825,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -7041,7 +8996,7 @@ unicode = 00EB;
 {
 color = 4;
 glyphname = egrave;
-lastChange = "2020-07-10 15:23:54 +0000";
+lastChange = "2020-09-25 13:02:52 +0000";
 layers = (
 {
 components = (
@@ -7050,6 +9005,7 @@ name = e;
 },
 {
 name = grave;
+transform = "{1, 0, 0, 1, -5, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -7074,9 +9030,40 @@ unicode = 00E8;
 {
 color = 4;
 glyphname = f;
-lastChange = "2020-09-12 11:34:22 +0000";
+lastChange = "2020-09-25 16:07:45 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -7206,6 +9193,31 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -7238,9 +9250,57 @@ unicode = 0066;
 {
 color = 4;
 glyphname = g;
-lastChange = "2020-09-12 11:23:26 +0000";
+lastChange = "2020-09-25 16:07:00 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 16}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 20}";
+target = "{0, 17}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -7258,6 +9318,9 @@ nodes = (
 "6 555 LINE",
 "6 45 LINE",
 "46 0 LINE",
+"86 0 LINE",
+"86 25 LINE",
+"98 25 LINE",
 "98 0 LINE",
 "98 -55 LINE",
 "86 -55 LINE",
@@ -7401,6 +9464,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 183;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 20}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 16}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -7409,15 +9502,18 @@ nodes = (
 "34 -90 LINE",
 "42 -82 LINE",
 "42 600 LINE",
-"33 600 LINE",
+"42 600 LINE",
 "30 600 LINE",
-"26 600 LINE",
-"23 600 LINE",
+"30 600 LINE",
+"18 600 LINE",
 "18 600 LINE",
 "14 600 LINE",
 "6 592 LINE",
 "6 8 LINE",
 "14 0 LINE",
+"18 0 LINE",
+"18 0 LINE",
+"30 0 LINE",
 "30 0 LINE",
 "30 -78 LINE",
 "18 -78 LINE",
@@ -7446,9 +9542,45 @@ unicode = 0067;
 {
 color = 4;
 glyphname = h;
-lastChange = "2020-09-12 11:34:13 +0000";
+lastChange = "2020-09-25 16:07:14 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -7549,6 +9681,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -7579,9 +9741,28 @@ unicode = 0068;
 {
 color = 4;
 glyphname = i;
-lastChange = "2020-09-12 11:41:37 +0000";
+lastChange = "2020-09-25 16:07:59 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{1, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -7680,6 +9861,25 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{1, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -7959,9 +10159,28 @@ unicode = 00EC;
 {
 color = 4;
 glyphname = j;
-lastChange = "2020-09-12 15:44:19 +0000";
+lastChange = "2020-09-25 16:07:39 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -8073,6 +10292,25 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -8104,13 +10342,55 @@ unicode = 006A;
 {
 color = 4;
 glyphname = k;
-lastChange = "2020-09-12 11:34:29 +0000";
+lastChange = "2020-09-25 16:07:56 +0000";
 layers = (
 {
 guideLines = (
 {
 angle = 270;
 position = "{86, 420}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 15}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -8215,6 +10495,42 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 15}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -8248,9 +10564,28 @@ unicode = 006B;
 {
 color = 4;
 glyphname = l;
-lastChange = "2020-09-12 11:34:31 +0000";
+lastChange = "2020-09-25 16:07:09 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -8289,6 +10624,25 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -8310,9 +10664,44 @@ unicode = 006C;
 {
 color = 4;
 glyphname = m;
-lastChange = "2020-07-13 09:09:02 +0000";
+lastChange = "2020-09-25 16:07:35 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 17}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 14}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -8504,6 +10893,35 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 276;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 17}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 14}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -8542,9 +10960,39 @@ unicode = 006D;
 {
 color = 4;
 glyphname = n;
-lastChange = "2020-07-06 07:37:16 +0000";
+lastChange = "2020-09-25 15:36:10 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -8648,6 +11096,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -8712,9 +11184,33 @@ unicode = 00F1;
 {
 color = 4;
 glyphname = o;
-lastChange = "2020-06-25 13:01:24 +0000";
+lastChange = "2020-09-25 15:35:47 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -8802,6 +11298,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -9207,9 +11727,51 @@ unicode = 0153;
 {
 color = 4;
 glyphname = p;
-lastChange = "2020-09-12 11:29:56 +0000";
+lastChange = "2020-09-25 16:07:33 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -9364,6 +11926,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -9474,9 +12066,51 @@ unicode = 00FE;
 {
 color = 4;
 glyphname = q;
-lastChange = "2020-09-12 11:29:54 +0000";
+lastChange = "2020-09-25 16:08:03 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -9634,6 +12268,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -9674,9 +12338,39 @@ unicode = 0071;
 {
 color = 4;
 glyphname = r;
-lastChange = "2020-06-25 13:11:18 +0000";
+lastChange = "2020-09-25 16:07:21 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -9768,6 +12462,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -9798,9 +12516,39 @@ unicode = 0072;
 {
 color = 4;
 glyphname = s;
-lastChange = "2020-09-04 10:33:21 +0000";
+lastChange = "2020-09-25 16:07:28 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 20}";
+type = Stem;
+},
+{
+origin = "{0, 17}";
+target = "{0, 14}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -9920,6 +12668,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 183;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 17}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 20}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -10055,9 +12833,40 @@ unicode = 00DF;
 {
 color = 4;
 glyphname = t;
-lastChange = "2020-09-12 11:37:10 +0000";
+lastChange = "2020-09-25 16:07:18 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -10187,6 +12996,31 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 92;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 12}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -10219,9 +13053,39 @@ unicode = 0074;
 {
 color = 4;
 glyphname = u;
-lastChange = "2020-06-25 11:29:50 +0000";
+lastChange = "2020-09-25 16:07:37 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -10325,6 +13189,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 4}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 10}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -10489,9 +13377,33 @@ unicode = 00F9;
 {
 color = 4;
 glyphname = v;
-lastChange = "2020-06-25 09:56:11 +0000";
+lastChange = "2020-09-25 16:07:24 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -10562,6 +13474,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -10589,9 +13525,44 @@ unicode = 0076;
 {
 color = 4;
 glyphname = w;
-lastChange = "2020-07-06 07:42:42 +0000";
+lastChange = "2020-09-25 15:35:57 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+origin = "{0, 20}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 16}";
+target = "{0, 17}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -10708,6 +13679,35 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 276;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 11}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 15}";
+target = "{0, 17}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -10883,9 +13883,45 @@ unicode = 1E81;
 {
 color = 4;
 glyphname = x;
-lastChange = "2020-07-13 08:27:12 +0000";
+lastChange = "2020-09-25 16:07:41 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -10983,6 +14019,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 15}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 19}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -11020,9 +14086,33 @@ unicode = 0078;
 {
 color = 4;
 glyphname = y;
-lastChange = "2020-09-24 13:01:38 +0000";
+lastChange = "2020-09-25 15:29:04 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 16}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+origin = "{0, 15}";
+target = "{0, 12}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -11035,6 +14125,9 @@ nodes = (
 "6 600 LINE",
 "6 45 LINE",
 "46 0 LINE",
+"86 0 LINE",
+"86 25 LINE",
+"98 25 LINE",
 "98 0 LINE",
 "98 -55 LINE",
 "86 -55 LINE",
@@ -11167,6 +14260,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 185;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 16}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 15}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 18}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -11179,6 +14302,9 @@ nodes = (
 "6 600 LINE",
 "6 8 LINE",
 "14 0 LINE",
+"18 0 LINE",
+"18 0 LINE",
+"30 0 LINE",
 "30 0 LINE",
 "30 -78 LINE",
 "18 -78 LINE",
@@ -11337,9 +14463,39 @@ unicode = 1EF3;
 {
 color = 4;
 glyphname = z;
-lastChange = "2020-09-14 07:42:13 +0000";
+lastChange = "2020-09-25 15:28:56 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -11348,7 +14504,6 @@ nodes = (
 "6 0 LINE",
 "47 0 LINE",
 "178 0 LINE",
-"178 45 LINE",
 "178 250 LINE",
 "98 250 LINE",
 "98 75 LINE",
@@ -11435,6 +14590,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -11443,7 +14628,6 @@ nodes = (
 "6 0 LINE",
 "14 0 LINE",
 "42 0 LINE",
-"42 45 LINE",
 "42 314 LINE",
 "30 314 LINE",
 "30 11 LINE",
@@ -11470,10 +14654,239 @@ unicode = 007A;
 },
 {
 color = 4;
-glyphname = y.ss01;
-lastChange = "2020-09-24 13:01:45 +0000";
+glyphname = f.ss01;
+lastChange = "2020-09-25 15:22:33 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+}
+);
+layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
+paths = (
+{
+closed = 1;
+nodes = (
+"98 730 LINE",
+"45 730 LINE",
+"6 685 LINE",
+"6 600 LINE",
+"0 600 LINE",
+"0 525 LINE",
+"6 525 LINE",
+"6 0 LINE",
+"86 0 LINE",
+"86 525 LINE",
+"92 525 LINE",
+"92 600 LINE",
+"86 600 LINE",
+"86 655 LINE",
+"98 655 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHW[ ]\011/* 1 value pushed */
+10 
+CALL[ ]\011/* CallFunction */
+PUSHW[ ]\011/* 4 values pushed */
+12 12 5 14 
+CALL[ ]\011/* CallFunction */
+PUSHW[ ]\011/* 1 value pushed */
+12 
+SRP0[ ]\011/* SetRefPoint0 */
+PUSHW[ ]\011/* 1 value pushed */
+0 
+MDRP[10000]\011/* MoveDirectRelPt */
+PUSHW[ ]\011/* 3 values pushed */
+3 5 12 
+SRP1[ ]\011/* SetRefPoint1 */
+SRP2[ ]\011/* SetRefPoint2 */
+IP[ ]\011/* InterpolatePts */
+PUSHW[ ]\011/* 1 value pushed */
+3 
+MDAP[1]\011/* MoveDirectAbsPt */
+PUSHW[ ]\011/* 1 value pushed */
+7 
+MDRP[10000]\011/* MoveDirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+3 
+SRP0[ ]\011/* SetRefPoint0 */
+PUSHW[ ]\011/* 2 values pushed */
+14 9 
+MIRP[10100]\011/* MoveIndirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+9 
+MDRP[10000]\011/* MoveDirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+12 
+SRP0[ ]\011/* SetRefPoint0 */
+PUSHW[ ]\011/* 1 value pushed */
+16 
+MDRP[11100]\011/* MoveDirectRelPt */
+SVTCA[0]\011/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+RCVT[ ]\011/* ReadCVT */
+IF[ ]\011/* If */
+PUSHW[ ]\011/* 1 value pushed */
+8 
+MDAP[1]\011/* MoveDirectAbsPt */
+ELSE[ ]\011/* Else */
+PUSHW[ ]\011/* 2 values pushed */
+8 19 
+MIAP[0]\011/* MoveIndirectAbsPt */
+EIF[ ]\011/* EndIf */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+RCVT[ ]\011/* ReadCVT */
+IF[ ]\011/* If */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+MDAP[1]\011/* MoveDirectAbsPt */
+ELSE[ ]\011/* Else */
+PUSHW[ ]\011/* 2 values pushed */
+6 17 
+MIAP[0]\011/* MoveIndirectAbsPt */
+EIF[ ]\011/* EndIf */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+RCVT[ ]\011/* ReadCVT */
+IF[ ]\011/* If */
+PUSHW[ ]\011/* 1 value pushed */
+10 
+MDAP[1]\011/* MoveDirectAbsPt */
+ELSE[ ]\011/* Else */
+PUSHW[ ]\011/* 2 values pushed */
+10 17 
+MIAP[0]\011/* MoveIndirectAbsPt */
+EIF[ ]\011/* EndIf */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+RCVT[ ]\011/* ReadCVT */
+IF[ ]\011/* If */
+PUSHW[ ]\011/* 1 value pushed */
+1 
+MDAP[1]\011/* MoveDirectAbsPt */
+ELSE[ ]\011/* Else */
+PUSHW[ ]\011/* 2 values pushed */
+1 13 
+MIAP[0]\011/* MoveIndirectAbsPt */
+EIF[ ]\011/* EndIf */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+SRP0[ ]\011/* SetRefPoint0 */
+PUSHW[ ]\011/* 2 values pushed */
+4 8 
+MIRP[10100]\011/* MoveIndirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+12 
+MDRP[10000]\011/* MoveDirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+13 
+MDRP[10000]\011/* MoveDirectRelPt */
+IUP[0]\011/* InterpolateUntPts */
+IUP[1]\011/* InterpolateUntPts */";
+};
+width = 92;
+},
+{
+layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
+paths = (
+{
+closed = 1;
+nodes = (
+"30 690 LINE",
+"14 690 LINE",
+"6 682 LINE",
+"6 600 LINE",
+"0 600 LINE",
+"0 589 LINE",
+"6 589 LINE",
+"6 0 LINE",
+"18 0 LINE",
+"18 589 LINE",
+"24 589 LINE",
+"24 600 LINE",
+"18 600 LINE",
+"18 679 LINE",
+"30 679 LINE"
+);
+}
+);
+width = 24;
+}
+);
+note = t;
+},
+{
+color = 4;
+glyphname = y.ss01;
+lastChange = "2020-09-25 16:21:13 +0000";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 13}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -11615,6 +15028,46 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 185;
 },
 {
+guideLines = (
+{
+position = "{32, 42}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 13}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -11645,9 +15098,50 @@ note = y;
 {
 color = 4;
 glyphname = f_f_i;
-lastChange = "2020-09-17 14:07:21 +0000";
+lastChange = "2020-09-25 16:17:04 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 22}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 18}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -11667,7 +15161,9 @@ nodes = (
 "270 600 LINE",
 "178 600 LINE",
 "178 655 LINE",
-"270 655 LINE",
+"190 655 LINE",
+"190 612 LINE",
+"270 612 LINE",
 "270 730 LINE",
 "45 730 LINE",
 "6 685 LINE",
@@ -11816,6 +15312,41 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 276;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 22}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -11835,8 +15366,10 @@ nodes = (
 "66 600 LINE",
 "42 600 LINE",
 "42 679 LINE",
-"64 679 LINE",
-"64 690 LINE",
+"54 679 LINE",
+"54 612 LINE",
+"66 612 LINE",
+"66 690 LINE",
 "14 690 LINE",
 "6 682 LINE",
 "6 600 LINE",
@@ -11862,9 +15395,44 @@ note = fi;
 {
 color = 4;
 glyphname = f_f_l;
-lastChange = "2020-09-17 14:06:16 +0000";
+lastChange = "2020-09-25 16:17:06 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 22}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12035,6 +15603,41 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 276;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 21}";
+target = "{0, 22}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 9}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12083,9 +15686,45 @@ note = fi;
 {
 color = 4;
 glyphname = f_i;
-lastChange = "2020-09-17 14:06:21 +0000";
+lastChange = "2020-09-25 16:17:10 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 12}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12099,7 +15738,9 @@ nodes = (
 "178 600 LINE",
 "86 600 LINE",
 "86 655 LINE",
-"178 655 LINE",
+"121 655 LINE",
+"121 612 LINE",
+"178 612 LINE",
 "178 730 LINE",
 "45 730 LINE",
 "6 685 LINE",
@@ -12237,6 +15878,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12250,8 +15921,10 @@ nodes = (
 "42 600 LINE",
 "18 600 LINE",
 "18 679 LINE",
-"40 679 LINE",
-"40 690 LINE",
+"30 679 LINE",
+"30 612 LINE",
+"42 612 LINE",
+"42 690 LINE",
 "14 690 LINE",
 "6 682 LINE",
 "6 0 LINE"
@@ -12266,9 +15939,45 @@ note = fi;
 {
 color = 4;
 glyphname = f_l;
-lastChange = "2020-09-17 14:06:29 +0000";
+lastChange = "2020-09-25 16:17:12 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12425,6 +16134,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12459,9 +16198,39 @@ note = fi;
 {
 color = 4;
 glyphname = f_t;
-lastChange = "2020-09-17 14:06:54 +0000";
+lastChange = "2020-09-25 16:17:18 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 14}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{1, 12}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 8}";
+target = "{1, 5}";
+type = Stem;
+},
+{
+origin = "{1, 14}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12635,6 +16404,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 14}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{1, 12}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 8}";
+target = "{1, 5}";
+type = Stem;
+},
+{
+origin = "{1, 14}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 14}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12685,9 +16484,39 @@ note = fi;
 },
 {
 glyphname = i_t;
-lastChange = "2020-09-17 14:07:10 +0000";
+lastChange = "2020-09-25 16:17:20 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{2, 2}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12732,6 +16561,36 @@ nodes = (
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{0, 13}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{2, 2}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{0, 14}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12779,9 +16638,39 @@ width = 48;
 },
 {
 glyphname = t_i;
-lastChange = "2020-09-17 08:26:58 +0000";
+lastChange = "2020-09-25 16:17:22 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12826,6 +16715,36 @@ nodes = (
 width = 185;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{1, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12873,9 +16792,33 @@ width = 49;
 },
 {
 glyphname = zero;
-lastChange = "2020-09-12 11:59:36 +0000";
+lastChange = "2020-09-25 16:14:44 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{1, 2}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -12963,6 +16906,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{1, 2}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -12996,9 +16963,28 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2020-09-12 11:59:41 +0000";
+lastChange = "2020-09-25 16:15:15 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13014,6 +17000,25 @@ nodes = (
 width = 88;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13034,9 +17039,39 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2020-09-12 11:59:46 +0000";
+lastChange = "2020-09-25 16:14:47 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 20}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 16}";
+type = Stem;
+},
+{
+origin = "{0, 19}";
+target = "{0, 10}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13159,6 +17194,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 20}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13197,9 +17262,45 @@ unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2020-09-12 11:59:51 +0000";
+lastChange = "2020-09-25 16:14:49 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 20}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 11}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13333,6 +17434,42 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 20}";
+target = "{0, 7}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 19}";
+type = Stem;
+},
+{
+origin = "{0, 14}";
+target = "{0, 11}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 17}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13373,9 +17510,39 @@ unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2020-09-12 12:01:01 +0000";
+lastChange = "2020-09-25 16:14:52 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{1, 3}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{1, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13482,6 +17649,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 180;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 2}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 4}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13513,9 +17710,39 @@ unicode = 0034;
 },
 {
 glyphname = five;
-lastChange = "2020-09-12 12:00:06 +0000";
+lastChange = "2020-09-25 16:14:55 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 20}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 16}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13655,6 +17882,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 20}";
+target = "{0, 17}";
+type = Stem;
+},
+{
+origin = "{0, 16}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13692,9 +17949,39 @@ unicode = 0035;
 },
 {
 glyphname = six;
-lastChange = "2020-09-12 12:00:10 +0000";
+lastChange = "2020-09-25 16:14:57 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{1, 2}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13801,6 +18088,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{1, 2}";
+target = "{0, 13}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13841,9 +18158,38 @@ unicode = 0036;
 },
 {
 glyphname = seven;
-lastChange = "2020-09-12 12:00:13 +0000";
+lastChange = "2020-09-25 16:14:59 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -13925,6 +18271,35 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 186;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 10}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 8}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -13953,9 +18328,45 @@ unicode = 0037;
 },
 {
 glyphname = eight;
-lastChange = "2020-09-12 12:00:16 +0000";
+lastChange = "2020-09-25 16:15:01 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{2, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{2, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{0, 9}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -14105,6 +18516,42 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{2, 0}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{2, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{1, 3}";
+target = "{0, 9}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -14155,9 +18602,39 @@ unicode = 0038;
 },
 {
 glyphname = nine;
-lastChange = "2020-09-12 12:00:19 +0000";
+lastChange = "2020-09-25 16:15:04 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 9}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -14273,6 +18750,36 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 186;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 1}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 2}";
+target = "{0, 9}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -14313,9 +18820,33 @@ unicode = 0039;
 },
 {
 glyphname = one.ss01;
-lastChange = "2020-09-12 12:00:22 +0000";
+lastChange = "2020-09-25 16:15:07 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -14379,6 +18910,30 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 184;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 9}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+origin = "{0, 10}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 8}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -14444,7 +18999,7 @@ unicode = 2044;
 {
 color = 4;
 glyphname = period;
-lastChange = "2020-06-26 10:10:46 +0000";
+lastChange = "2020-09-25 15:06:27 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18273,7 +22828,7 @@ unicode = 00A5;
 },
 {
 glyphname = plus;
-lastChange = "2020-06-26 10:56:51 +0000";
+lastChange = "2020-09-25 14:01:59 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18281,23 +22836,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 399 LINE",
-"6 399 LINE",
-"6 329 LINE",
-"147 329 LINE"
+"129 279 LINE",
+"129 449 LINE",
+"59 449 LINE",
+"59 279 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"36 291 LINE",
-"117 291 LINE",
-"117 438 LINE",
-"36 438 LINE"
+"182 329 LINE",
+"182 399 LINE",
+"6 399 LINE",
+"6 329 LINE"
 );
 }
 );
-width = 153;
+width = 188;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18305,19 +22860,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"37 340 LINE",
-"5 340 LINE",
-"5 329 LINE",
-"37 329 LINE"
+"27 320 LINE",
+"27 350 LINE",
+"15 350 LINE",
+"15 320 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"15 320 LINE",
-"27 320 LINE",
-"27 350 LINE",
-"15 350 LINE"
+"37 329 LINE",
+"37 340 LINE",
+"5 340 LINE",
+"5 329 LINE"
 );
 }
 );
@@ -18329,7 +22884,7 @@ unicode = 002B;
 },
 {
 glyphname = minus;
-lastChange = "2020-06-26 10:56:59 +0000";
+lastChange = "2020-09-25 14:02:11 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18337,14 +22892,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 399 LINE",
+"182 329 LINE",
+"182 399 LINE",
 "6 399 LINE",
-"6 329 LINE",
-"147 329 LINE"
+"6 329 LINE"
 );
 }
 );
-width = 153;
+width = 188;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18366,7 +22921,7 @@ unicode = 2212;
 },
 {
 glyphname = multiply;
-lastChange = "2020-06-26 10:57:27 +0000";
+lastChange = "2020-09-25 14:03:59 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18374,23 +22929,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"155 337 LINE",
-"55 437 LINE",
-"6 387 LINE",
-"106 287 LINE"
+"178 329 LINE",
+"58 449 LINE",
+"8 399 LINE",
+"128 279 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"155 387 LINE",
-"105 436 LINE",
-"6 336 LINE",
-"56 287 LINE"
+"180 401 LINE",
+"130 451 LINE",
+"6 327 LINE",
+"56 277 LINE"
 );
 }
 );
-width = 161;
+width = 186;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18421,7 +22976,7 @@ unicode = 00D7;
 },
 {
 glyphname = divide;
-lastChange = "2020-06-26 10:58:23 +0000";
+lastChange = "2020-09-25 14:02:27 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18429,48 +22984,48 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 399 LINE",
+"182 329 LINE",
+"182 399 LINE",
 "6 399 LINE",
-"6 329 LINE",
-"147 329 LINE"
+"6 329 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"95 251 OFFCURVE",
-"110 266 OFFCURVE",
-"110 284 CURVE SMOOTH",
-"110 302 OFFCURVE",
-"95 317 OFFCURVE",
-"77 317 CURVE SMOOTH",
-"59 317 OFFCURVE",
-"44 302 OFFCURVE",
-"44 284 CURVE SMOOTH",
-"44 266 OFFCURVE",
-"59 251 OFFCURVE",
-"77 251 CURVE SMOOTH"
+"112 251 OFFCURVE",
+"127 266 OFFCURVE",
+"127 284 CURVE SMOOTH",
+"127 302 OFFCURVE",
+"112 317 OFFCURVE",
+"94 317 CURVE SMOOTH",
+"76 317 OFFCURVE",
+"61 302 OFFCURVE",
+"61 284 CURVE SMOOTH",
+"61 266 OFFCURVE",
+"76 251 OFFCURVE",
+"94 251 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"95 411 OFFCURVE",
-"110 426 OFFCURVE",
-"110 444 CURVE SMOOTH",
-"110 462 OFFCURVE",
-"95 477 OFFCURVE",
-"77 477 CURVE SMOOTH",
-"59 477 OFFCURVE",
-"44 462 OFFCURVE",
-"44 444 CURVE SMOOTH",
-"44 426 OFFCURVE",
-"59 411 OFFCURVE",
-"77 411 CURVE SMOOTH"
+"112 411 OFFCURVE",
+"127 426 OFFCURVE",
+"127 444 CURVE SMOOTH",
+"127 462 OFFCURVE",
+"112 477 OFFCURVE",
+"94 477 CURVE SMOOTH",
+"76 477 OFFCURVE",
+"61 462 OFFCURVE",
+"61 444 CURVE SMOOTH",
+"61 426 OFFCURVE",
+"76 411 OFFCURVE",
+"94 411 CURVE SMOOTH"
 );
 }
 );
-width = 153;
+width = 188;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18478,10 +23033,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"38 328 LINE",
 "38 340 LINE",
 "6 340 LINE",
-"6 328 LINE",
-"38 328 LINE"
+"6 328 LINE"
 );
 },
 {
@@ -18526,7 +23081,7 @@ unicode = 00F7;
 },
 {
 glyphname = equal;
-lastChange = "2020-06-26 11:04:34 +0000";
+lastChange = "2020-09-25 14:03:16 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18534,19 +23089,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 358 LINE",
-"6 358 LINE",
-"6 288 LINE",
-"147 288 LINE"
+"182 370 LINE",
+"182 440 LINE",
+"6 440 LINE",
+"6 370 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"147 440 LINE",
-"6 440 LINE",
-"6 370 LINE",
-"147 370 LINE"
+"182 288 LINE",
+"182 358 LINE",
+"6 358 LINE",
+"6 288 LINE"
 );
 }
 );
@@ -18585,7 +23140,7 @@ CALL[ ]\011/* CallFunction */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 153;
+width = 188;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18593,19 +23148,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"38 331 LINE",
-"6 331 LINE",
-"6 320 LINE",
-"38 320 LINE"
+"38 337 LINE",
+"38 348 LINE",
+"6 348 LINE",
+"6 337 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"38 348 LINE",
-"6 348 LINE",
-"6 337 LINE",
-"38 337 LINE"
+"38 320 LINE",
+"38 331 LINE",
+"6 331 LINE",
+"6 320 LINE"
 );
 }
 );
@@ -18617,7 +23172,7 @@ unicode = 003D;
 },
 {
 glyphname = notequal;
-lastChange = "2020-06-26 11:05:40 +0000";
+lastChange = "2020-09-25 14:02:49 +0000";
 layers = (
 {
 components = (
@@ -18630,14 +23185,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"78 466 LINE",
-"6 263 LINE",
-"75 263 LINE",
-"147 466 LINE"
+"96 466 LINE",
+"24 263 LINE",
+"93 263 LINE",
+"165 466 LINE"
 );
 }
 );
-width = 153;
+width = 188;
 },
 {
 components = (
@@ -18664,7 +23219,7 @@ unicode = 2260;
 },
 {
 glyphname = greater;
-lastChange = "2020-06-26 11:12:30 +0000";
+lastChange = "2020-09-25 14:03:38 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18672,28 +23227,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"6 416 LINE",
-"6 346 LINE",
-"147 346 LINE",
-"147 416 LINE"
+"6 442 LINE",
+"6 372 LINE",
+"176 372 LINE",
+"176 442 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"6 334 LINE",
-"6 264 LINE",
-"147 264 LINE",
-"147 334 LINE"
+"6 360 LINE",
+"6 290 LINE",
+"176 290 LINE",
+"176 360 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"82 300 LINE",
-"147 300 LINE",
-"147 377 LINE",
-"82 377 LINE"
+"111 326 LINE",
+"176 326 LINE",
+"176 403 LINE",
+"111 403 LINE"
 );
 }
 );
@@ -18729,7 +23284,7 @@ EIF[ ]\011/* EndIf */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 153;
+width = 182;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18770,13 +23325,13 @@ unicode = 003E;
 },
 {
 glyphname = less;
-lastChange = "2020-06-26 11:12:37 +0000";
+lastChange = "2020-09-25 14:03:41 +0000";
 layers = (
 {
 components = (
 {
 name = greater;
-transform = "{-1, 0, 0, 1, 153, 0}";
+transform = "{-1, 0, 0, 1, 182, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18812,7 +23367,7 @@ EIF[ ]\011/* EndIf */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 153;
+width = 182;
 },
 {
 components = (
@@ -18830,7 +23385,7 @@ unicode = 003C;
 },
 {
 glyphname = greaterequal;
-lastChange = "2020-06-26 11:19:33 +0000";
+lastChange = "2020-09-25 14:08:29 +0000";
 layers = (
 {
 components = (
@@ -18843,14 +23398,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 252 LINE",
-"6 252 LINE",
-"6 182 LINE",
-"147 182 LINE"
+"176 278 LINE",
+"6 278 LINE",
+"6 208 LINE",
+"176 208 LINE"
 );
 }
 );
-width = 153;
+width = 182;
 },
 {
 components = (
@@ -18877,17 +23432,17 @@ unicode = 2265;
 },
 {
 glyphname = lessequal;
-lastChange = "2020-06-26 11:19:45 +0000";
+lastChange = "2020-09-25 14:08:00 +0000";
 layers = (
 {
 components = (
 {
 name = greaterequal;
-transform = "{-1, 0, 0, 1, 153, 0}";
+transform = "{-1, 0, 0, 1, 185, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-width = 153;
+width = 185;
 },
 {
 components = (
@@ -18904,7 +23459,7 @@ unicode = 2264;
 },
 {
 glyphname = plusminus;
-lastChange = "2020-06-26 11:24:03 +0000";
+lastChange = "2020-09-25 14:09:39 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18912,32 +23467,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 399 LINE",
+"176 399 LINE",
 "6 399 LINE",
 "6 329 LINE",
-"147 329 LINE"
+"176 329 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"36 291 LINE",
-"117 291 LINE",
-"117 438 LINE",
-"36 438 LINE"
+"51 291 LINE",
+"132 291 LINE",
+"132 438 LINE",
+"51 438 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"147 279 LINE",
-"6 279 LINE",
-"6 209 LINE",
-"147 209 LINE"
+"176 278 LINE",
+"6 278 LINE",
+"6 208 LINE",
+"176 208 LINE"
 );
 }
 );
-width = 153;
+width = 182;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -18977,7 +23532,7 @@ unicode = 00B1;
 },
 {
 glyphname = approxequal;
-lastChange = "2020-06-26 11:50:03 +0000";
+lastChange = "2020-09-25 14:09:51 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -18985,31 +23540,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 440 LINE",
-"90 440 LINE",
-"63 418 LINE",
+"176 440 LINE",
+"107 440 LINE",
+"75 418 LINE",
 "6 418 LINE",
 "6 348 LINE",
-"63 348 LINE",
-"90 370 LINE",
-"147 370 LINE"
+"75 348 LINE",
+"107 370 LINE",
+"176 370 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"147 358 LINE",
-"90 358 LINE",
-"63 336 LINE",
+"176 358 LINE",
+"107 358 LINE",
+"75 336 LINE",
 "6 336 LINE",
 "6 266 LINE",
-"63 266 LINE",
-"90 288 LINE",
-"147 288 LINE"
+"75 266 LINE",
+"107 288 LINE",
+"176 288 LINE"
 );
 }
 );
-width = 153;
+width = 182;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -19048,7 +23603,7 @@ unicode = 2248;
 },
 {
 glyphname = asciitilde;
-lastChange = "2020-06-26 11:50:16 +0000";
+lastChange = "2020-09-25 14:09:59 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -19056,18 +23611,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 403 LINE",
-"90 403 LINE",
-"63 381 LINE",
+"176 403 LINE",
+"107 403 LINE",
+"75 381 LINE",
 "6 381 LINE",
 "6 311 LINE",
-"63 311 LINE",
-"90 333 LINE",
-"147 333 LINE"
+"75 311 LINE",
+"107 333 LINE",
+"176 333 LINE"
 );
 }
 );
-width = 153;
+width = 182;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -21724,9 +26279,22 @@ unicode = 0327;
 {
 color = 4;
 glyphname = acute;
-lastChange = "2020-09-17 08:31:26 +0000";
+lastChange = "2020-09-25 16:15:33 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -21748,8 +26316,8 @@ paths = (
 closed = 1;
 nodes = (
 "12 660 LINE",
-"34 727 LINE",
-"21 727 LINE",
+"34 738 LINE",
+"21 738 LINE",
 "6 660 LINE"
 );
 }
@@ -21762,9 +26330,33 @@ unicode = 00B4;
 {
 color = 4;
 glyphname = breve;
-lastChange = "2020-06-25 12:47:57 +0000";
+lastChange = "2020-09-25 16:15:35 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -21808,9 +26400,33 @@ unicode = 02D8;
 {
 color = 4;
 glyphname = caron;
-lastChange = "2020-06-25 12:47:57 +0000";
+lastChange = "2020-09-25 16:15:37 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 6}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -21854,9 +26470,28 @@ unicode = 02C7;
 {
 color = 4;
 glyphname = cedilla;
-lastChange = "2020-06-25 12:51:02 +0000";
+lastChange = "2020-09-25 16:16:04 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 4}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -21918,7 +26553,7 @@ unicode = 00B8;
 {
 color = 4;
 glyphname = circumflex;
-lastChange = "2020-09-17 08:31:33 +0000";
+lastChange = "2020-09-25 16:15:39 +0000";
 layers = (
 {
 guideLines = (
@@ -21929,6 +26564,24 @@ position = "{193, 612}";
 {
 angle = 270;
 position = "{286, 612}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{2, 7}";
+target = "{2, 3}";
+type = Stem;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = Stem;
+},
+{
+origin = "{1, 1}";
+target = "{1, 2}";
+type = Stem;
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -21975,34 +26628,34 @@ paths = (
 {
 closed = 1;
 nodes = (
-"6 711 LINE",
+"6 722 LINE",
 "6 660 LINE",
 "18 660 LINE",
-"18 711 LINE"
+"18 722 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"30 711 LINE",
+"30 722 LINE",
 "30 660 LINE",
 "42 660 LINE",
-"42 711 LINE"
+"42 722 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"42 711 LINE",
-"42 719 LINE",
-"34 727 LINE",
-"14 727 LINE",
-"6 719 LINE",
-"6 711 LINE",
-"18 711 LINE",
-"18 715 LINE",
-"30 715 LINE",
-"30 711 LINE"
+"42 722 LINE",
+"42 730 LINE",
+"34 738 LINE",
+"14 738 LINE",
+"6 730 LINE",
+"6 722 LINE",
+"18 722 LINE",
+"18 726 LINE",
+"30 726 LINE",
+"30 722 LINE"
 );
 }
 );
@@ -22014,9 +26667,27 @@ unicode = 02C6;
 {
 color = 4;
 glyphname = dieresis;
-lastChange = "2020-09-17 08:31:42 +0000";
+lastChange = "2020-09-25 16:15:41 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Stem;
+},
+{
+origin = "{1, 0}";
+target = "{1, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -22048,8 +26719,8 @@ closed = 1;
 nodes = (
 "6 660 LINE",
 "18 660 LINE",
-"18 727 LINE",
-"6 727 LINE"
+"18 738 LINE",
+"6 738 LINE"
 );
 },
 {
@@ -22057,8 +26728,8 @@ closed = 1;
 nodes = (
 "24 660 LINE",
 "36 660 LINE",
-"36 727 LINE",
-"24 727 LINE"
+"36 738 LINE",
+"24 738 LINE"
 );
 }
 );
@@ -22070,9 +26741,22 @@ unicode = 00A8;
 {
 color = 4;
 glyphname = dotaccent;
-lastChange = "2020-06-25 12:47:57 +0000";
+lastChange = "2020-09-25 16:15:44 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -22136,7 +26820,7 @@ unicode = 0060;
 {
 color = 4;
 glyphname = hungarumlaut;
-lastChange = "2020-06-25 12:47:57 +0000";
+lastChange = "2020-09-25 16:15:53 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -22146,8 +26830,8 @@ closed = 1;
 nodes = (
 "6 612 LINE",
 "66 612 LINE",
-"146 690 LINE",
-"86 690 LINE"
+"134 730 LINE",
+"74 730 LINE"
 );
 },
 {
@@ -22155,8 +26839,8 @@ closed = 1;
 nodes = (
 "78 612 LINE",
 "139 612 LINE",
-"220 690 LINE",
-"158 690 LINE"
+"208 730 LINE",
+"146 730 LINE"
 );
 }
 );
@@ -22170,8 +26854,8 @@ closed = 1;
 nodes = (
 "6 660 LINE",
 "18 660 LINE",
-"48 690 LINE",
-"36 690 LINE"
+"48 738 LINE",
+"36 738 LINE"
 );
 },
 {
@@ -22179,8 +26863,8 @@ closed = 1;
 nodes = (
 "30 660 LINE",
 "41 660 LINE",
-"72 690 LINE",
-"60 690 LINE"
+"72 738 LINE",
+"60 738 LINE"
 );
 }
 );
@@ -22193,9 +26877,22 @@ unicode = 02DD;
 {
 color = 4;
 glyphname = macron;
-lastChange = "2020-06-25 12:47:57 +0000";
+lastChange = "2020-09-25 16:15:58 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -22231,9 +26928,28 @@ unicode = 00AF;
 {
 color = 4;
 glyphname = ogonek;
-lastChange = "2020-06-25 12:47:57 +0000";
+lastChange = "2020-09-25 16:16:08 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{1, 0}";
+type = Stem;
+},
+{
+origin = "{0, 0}";
+target = "{0, 5}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -22295,9 +27011,33 @@ unicode = 02DB;
 {
 color = 4;
 glyphname = ring;
-lastChange = "2020-09-17 08:31:50 +0000";
+lastChange = "2020-09-25 16:16:13 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{1, 3}";
+type = Stem;
+},
+{
+origin = "{1, 2}";
+target = "{0, 2}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -22334,18 +27074,18 @@ nodes = (
 "16 654 LINE",
 "36 654 LINE",
 "44 662 LINE",
-"44 713 LINE",
-"36 721 LINE",
-"16 721 LINE",
-"8 713 LINE",
+"44 724 LINE",
+"36 732 LINE",
+"16 732 LINE",
+"8 724 LINE",
 "8 662 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"20 709 LINE",
-"32 709 LINE",
+"20 720 LINE",
+"32 720 LINE",
 "32 666 LINE",
 "20 666 LINE"
 );
@@ -22359,9 +27099,38 @@ unicode = 02DA;
 {
 color = 4;
 glyphname = tilde;
-lastChange = "2020-09-17 08:32:22 +0000";
+lastChange = "2020-09-25 16:16:15 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 11}";
+target = "{0, 8}";
+type = Stem;
+},
+{
+origin = "{0, 7}";
+target = "{0, 0}";
+type = Stem;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = Stem;
+}
+);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -22391,16 +27160,16 @@ paths = (
 closed = 1;
 nodes = (
 "26 660 LINE",
-"26 719 LINE",
-"29 719 LINE",
+"26 730 LINE",
+"29 730 LINE",
 "29 660 LINE",
 "38 660 LINE",
-"38 727 LINE",
-"18 727 LINE",
+"38 738 LINE",
+"18 738 LINE",
 "18 668 LINE",
 "15 668 LINE",
-"15 727 LINE",
-"6 727 LINE",
+"15 738 LINE",
+"6 738 LINE",
 "6 660 LINE"
 );
 }
@@ -22492,6 +27261,9 @@ kerning = {
 percent = {
 perthousand = -48;
 };
+seven = {
+period = -11;
+};
 };
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = {
 F = {
@@ -22512,6 +27284,9 @@ d = -50;
 };
 s = {
 s = 0;
+};
+seven = {
+period = -42;
 };
 };
 };
