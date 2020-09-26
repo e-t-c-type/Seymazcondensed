@@ -7,6 +7,7 @@ Made between Amsterdam and Geneva by Mateo Broillet http://mateobroillet.ch/seym
 On a SIL Open Font License. Feel free to share, fork, modify and download!
 
 Version beta: 2020_09_23. 
+
 Update calt, hinting, inktraps, kerning: 2020_09_26
 
 Improvements will be made!
