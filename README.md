@@ -8,4 +8,4 @@ On a SIL Open Font License. Feel free to share, fork, modify and download!
 
 Version beta: 2020-09-23. 
 
-Improvements will be made. 
+Improvements will be made!
