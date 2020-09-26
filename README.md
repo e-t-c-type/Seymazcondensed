@@ -2,7 +2,7 @@
 
 Inspired by 'Grecian' typefaces examples from the late XIXth century. 
 
-Made by Mateo Broillet www.mateobroillet.ch 
+Made by Mateo Broillet www.mateobroillet.ch under the 'etc studio' alias. 
 
 On a SIL Open Font License. Feel free to share, fork, modify and download!
 
