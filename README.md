@@ -2,7 +2,7 @@
 
 Inspired by 'Grecian' typefaces examples from the late XIXth century. 
 
-Made between Amsterdam and Geneva by Mateo Broillet http://mateobroillet.ch/seymaz.html under the 'etc studio' alias. 
+Made between Amsterdam and Geneva by Mateo Broillet http://mateobroillet.ch under the 'etc studio' alias. 
 
 On a SIL Open Font License. Feel free to share, fork, modify and download!
 
