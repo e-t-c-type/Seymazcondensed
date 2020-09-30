@@ -36,7 +36,7 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2020-09-26 15:27:40 +0000";
+date = "2020-09-29 09:10:42 +0000";
 designer = "Mateo Broillet / e-t-c typefoundry";
 designerURL = www.mateobroillet.ch;
 familyName = Seymaz;
@@ -11838,7 +11838,7 @@ unicode = 0072;
 {
 color = 4;
 glyphname = s;
-lastChange = "2020-09-26 15:38:26 +0000";
+lastChange = "2020-09-29 10:51:22 +0000";
 layers = (
 {
 hints = (
@@ -11878,28 +11878,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"146 336 LINE",
+"147 336 LINE",
 "94 336 LINE",
 "134 525 LINE",
-"145 525 LINE",
-"108 349 LINE",
-"188 349 LINE",
-"231 555 LINE",
-"200 600 LINE",
+"146 525 LINE",
+"109 349 LINE",
+"189 349 LINE",
+"232 555 LINE",
+"201 600 LINE",
 "110 600 LINE",
 "60 555 LINE",
 "6 300 LINE",
 "38 261 LINE",
 "89 261 LINE",
-"49 75 LINE",
+"50 75 LINE",
 "38 75 LINE",
 "75 248 LINE",
 "-5 248 LINE",
 "-48 45 LINE",
 "-18 0 LINE",
-"72 0 LINE",
-"123 45 LINE",
-"177 300 LINE"
+"73 0 LINE",
+"124 45 LINE",
+"178 300 LINE"
 );
 }
 );
@@ -11989,7 +11989,7 @@ MDRP[11100]\011/* MoveDirectRelPt */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 184;
+width = 185;
 },
 {
 hints = (
@@ -12017,32 +12017,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"35 311 LINE",
+"36 311 LINE",
 "20 311 LINE",
 "79 589 LINE",
-"90 589 LINE",
-"34 323 LINE",
-"46 323 LINE",
-"103 592 LINE",
-"97 600 LINE",
+"91 589 LINE",
+"35 323 LINE",
+"47 323 LINE",
+"104 592 LINE",
+"98 600 LINE",
 "78 600 LINE",
 "68 592 LINE",
 "8 308 LINE",
 "14 300 LINE",
-"29 300 LINE",
-"-32 11 LINE",
+"30 300 LINE",
+"-31 11 LINE",
 "-43 11 LINE",
 "15 287 LINE",
 "3 287 LINE",
 "-56 8 LINE",
 "-50 0 LINE",
-"-31 0 LINE",
-"-21 8 LINE",
-"42 303 LINE"
+"-30 0 LINE",
+"-20 8 LINE",
+"43 303 LINE"
 );
 }
 );
-width = 47;
+width = 48;
 }
 );
 note = s;
@@ -17143,7 +17143,7 @@ unicode = 0036;
 },
 {
 glyphname = seven;
-lastChange = "2020-09-26 15:04:50 +0000";
+lastChange = "2020-09-29 09:08:22 +0000";
 layers = (
 {
 hints = (
@@ -18117,7 +18117,7 @@ unicode = 002E;
 {
 color = 4;
 glyphname = comma;
-lastChange = "2020-09-26 15:09:51 +0000";
+lastChange = "2020-09-29 09:09:38 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -20613,11 +20613,11 @@ unicode = 0027;
 },
 {
 glyphname = space;
-lastChange = "2020-09-26 14:49:03 +0000";
+lastChange = "2020-09-29 09:10:28 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-width = 104;
+width = 86;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -26333,6 +26333,10 @@ name = "Bold Condensed Slanted";
 );
 kerning = {
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = {
+comma = {
+four = -25;
+seven = -13;
+};
 percent = {
 perthousand = -48;
 };
@@ -26349,7 +26353,9 @@ bracketleft = {
 p = 15;
 };
 comma = {
+four = -87;
 quotesinglbase = 0;
+seven = -53;
 };
 quotesinglbase = {
 comma = 0;
