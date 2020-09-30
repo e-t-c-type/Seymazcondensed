@@ -38,7 +38,7 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2020-09-25 15:17:56 +0000";
+date = "2020-09-26 17:08:28 +0000";
 designer = "Mateo Broillet / e-t-c typefoundry";
 designerURL = www.mateobroillet.ch;
 familyName = Seymaz;
@@ -12516,7 +12516,7 @@ unicode = 0072;
 {
 color = 4;
 glyphname = s;
-lastChange = "2020-09-25 16:07:28 +0000";
+lastChange = "2020-09-29 10:50:32 +0000";
 layers = (
 {
 hints = (
@@ -12554,28 +12554,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"138 336 LINE",
+"139 336 LINE",
 "86 336 LINE",
 "86 525 LINE",
-"97 525 LINE",
-"97 349 LINE",
-"177 349 LINE",
-"177 555 LINE",
-"136 600 LINE",
+"98 525 LINE",
+"98 349 LINE",
+"178 349 LINE",
+"178 555 LINE",
+"137 600 LINE",
 "46 600 LINE",
 "6 555 LINE",
 "6 300 LINE",
 "46 261 LINE",
-"97 261 LINE",
-"97 75 LINE",
+"98 261 LINE",
+"98 75 LINE",
 "86 75 LINE",
 "86 248 LINE",
 "6 248 LINE",
 "6 45 LINE",
 "46 0 LINE",
-"136 0 LINE",
-"177 45 LINE",
-"177 300 LINE"
+"137 0 LINE",
+"178 45 LINE",
+"178 300 LINE"
 );
 }
 );
@@ -12665,7 +12665,7 @@ MDRP[11100]\011/* MoveDirectRelPt */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 183;
+width = 184;
 },
 {
 hints = (
@@ -12703,32 +12703,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"33 311 LINE",
+"34 311 LINE",
 "18 311 LINE",
 "18 589 LINE",
-"29 589 LINE",
-"29 323 LINE",
-"41 323 LINE",
-"41 592 LINE",
-"33 600 LINE",
+"30 589 LINE",
+"30 323 LINE",
+"42 323 LINE",
+"42 592 LINE",
+"34 600 LINE",
 "14 600 LINE",
 "6 592 LINE",
 "6 308 LINE",
 "14 300 LINE",
-"29 300 LINE",
-"29 11 LINE",
+"30 300 LINE",
+"30 11 LINE",
 "18 11 LINE",
 "18 287 LINE",
 "6 287 LINE",
 "6 8 LINE",
 "14 0 LINE",
-"33 0 LINE",
-"41 8 LINE",
-"41 303 LINE"
+"34 0 LINE",
+"42 8 LINE",
+"42 303 LINE"
 );
 }
 );
-width = 47;
+width = 48;
 }
 );
 note = s;
@@ -26553,7 +26553,7 @@ unicode = 00B8;
 {
 color = 4;
 glyphname = circumflex;
-lastChange = "2020-09-25 16:15:39 +0000";
+lastChange = "2020-09-29 10:58:26 +0000";
 layers = (
 {
 guideLines = (
