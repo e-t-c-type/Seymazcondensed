@@ -1290,7 +1290,7 @@ unicode = 00D0;
 {
 color = 4;
 glyphname = E;
-lastChange = "2020-09-26 15:40:06 +0000";
+lastChange = "2020-10-01 09:36:40 +0000";
 layers = (
 {
 hints = (
@@ -1451,7 +1451,7 @@ unicode = 0045;
 {
 color = 4;
 glyphname = Eacute;
-lastChange = "2020-09-17 07:19:54 +0000";
+lastChange = "2020-10-01 10:22:05 +0000";
 layers = (
 {
 components = (
@@ -1460,7 +1460,6 @@ name = E;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, -1, -1}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -1473,7 +1472,7 @@ name = E;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, -66, 0}";
+transform = "{1, 0, 0, 1, -69, 0}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -1485,7 +1484,7 @@ unicode = 00C9;
 {
 color = 4;
 glyphname = Ecircumflex;
-lastChange = "2020-09-17 07:17:56 +0000";
+lastChange = "2020-10-01 10:22:13 +0000";
 layers = (
 {
 components = (
@@ -1494,7 +1493,7 @@ name = E;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -39, 0}";
+transform = "{1, 0, 0, 1, -40, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -1519,7 +1518,7 @@ unicode = 00CA;
 {
 color = 4;
 glyphname = Edieresis;
-lastChange = "2020-09-17 07:18:02 +0000";
+lastChange = "2020-10-01 10:23:13 +0000";
 layers = (
 {
 components = (
@@ -1528,7 +1527,7 @@ name = E;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -28, 0}";
+transform = "{1, 0, 0, 1, -31, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -1553,7 +1552,7 @@ unicode = 00CB;
 {
 color = 4;
 glyphname = Egrave;
-lastChange = "2020-09-17 07:19:44 +0000";
+lastChange = "2020-10-01 10:23:23 +0000";
 layers = (
 {
 components = (
@@ -1562,7 +1561,7 @@ name = E;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 25, 0}";
+transform = "{1, 0, 0, 1, 46, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -1575,7 +1574,7 @@ name = E;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 38, 0}";
+transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -1587,7 +1586,7 @@ unicode = 00C8;
 {
 color = 4;
 glyphname = F;
-lastChange = "2020-09-26 15:41:11 +0000";
+lastChange = "2020-10-01 09:36:21 +0000";
 layers = (
 {
 hints = (
@@ -2692,20 +2691,25 @@ unicode = 004B;
 {
 color = 4;
 glyphname = L;
-lastChange = "2020-09-26 15:43:00 +0000";
+lastChange = "2020-10-01 09:25:50 +0000";
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-origin = "{0, 10}";
-target = "{0, 2}";
+origin = "{0, 1}";
+target = "{0, 4}";
 type = Stem;
 },
 {
 horizontal = 1;
-origin = "{0, 8}";
-target = "{0, 3}";
+origin = "{0, 0}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 1}";
+target = "{0, 5}";
 type = Stem;
 }
 );
@@ -2714,36 +2718,48 @@ paths = (
 {
 closed = 1;
 nodes = (
-"114 0 LINE",
-"130 75 LINE",
+"97 730 LINE",
+"-58 0 LINE",
+"28 0 LINE",
+"44 75 LINE",
 "38 75 LINE",
-"161 655 LINE",
-"173 655 LINE",
-"52 87 LINE",
-"132 87 LINE",
-"269 730 LINE",
-"137 730 LINE",
-"88 685 LINE",
-"-58 0 LINE"
+"177 730 LINE"
 );
 }
 );
 userData = {
-assembly = "PUSHW[ ]\011/* 4 values pushed */
-0 1 3 4 
+assembly = "PUSHW[ ]\011/* 1 value pushed */
+10 
 CALL[ ]\011/* CallFunction */
+PUSHW[ ]\011/* 4 values pushed */
+0 12 5 14 
+CALL[ ]\011/* CallFunction */
+PUSHW[ ]\011/* 3 values pushed */
+3 5 0 
+SRP1[ ]\011/* SetRefPoint1 */
+SRP2[ ]\011/* SetRefPoint2 */
+IP[ ]\011/* InterpolatePts */
 PUSHW[ ]\011/* 1 value pushed */
 3 
-SRP0[ ]\011/* SetRefPoint0 */
-PUSHW[ ]\011/* 1 value pushed */
-2 
-MDRP[11100]\011/* MoveDirectRelPt */
+MDAP[1]\011/* MoveDirectAbsPt */
+PUSHW[ ]\011/* 2 values pushed */
+2 9 
+MIRP[10100]\011/* MoveIndirectRelPt */
 SVTCA[0]\011/* SetFreedomAndProjectionVectorToAxis */
 PUSHW[ ]\011/* 1 value pushed */
-4 
-MDAP[1]\011/* MoveDirectAbsPt */
+6 
+RCVT[ ]\011/* ReadCVT */
+IF[ ]\011/* If */
 PUSHW[ ]\011/* 1 value pushed */
-0 
+6 
+MDAP[1]\011/* MoveDirectAbsPt */
+ELSE[ ]\011/* Else */
+PUSHW[ ]\011/* 2 values pushed */
+6 19 
+MIAP[0]\011/* MoveIndirectAbsPt */
+EIF[ ]\011/* EndIf */
+PUSHW[ ]\011/* 1 value pushed */
+6 
 RCVT[ ]\011/* ReadCVT */
 IF[ ]\011/* If */
 PUSHW[ ]\011/* 1 value pushed */
@@ -2751,31 +2767,39 @@ PUSHW[ ]\011/* 1 value pushed */
 MDAP[1]\011/* MoveDirectAbsPt */
 ELSE[ ]\011/* Else */
 PUSHW[ ]\011/* 2 values pushed */
-2 2 
+2 13 
 MIAP[0]\011/* MoveIndirectAbsPt */
 EIF[ ]\011/* EndIf */
+PUSHW[ ]\011/* 1 value pushed */
+6 
+SRP0[ ]\011/* SetRefPoint0 */
+PUSHW[ ]\011/* 2 values pushed */
+0 8 
+MIRP[10100]\011/* MoveIndirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+4 
+MDRP[10000]\011/* MoveDirectRelPt */
+PUSHW[ ]\011/* 1 value pushed */
+5 
+MDRP[10000]\011/* MoveDirectRelPt */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 184;
+width = 92;
 },
 {
 hints = (
 {
 horizontal = 1;
-origin = "{0, 10}";
-target = "{0, 2}";
+origin = "{0, 1}";
+target = "{0, 4}";
 type = Stem;
 },
 {
 horizontal = 1;
-origin = "{0, 8}";
-target = "{0, 3}";
-type = Stem;
-},
-{
-place = "{-29, 8}";
-type = Stem;
+origin = "{0, 0}";
+target = down;
+type = TopGhost;
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -2783,24 +2807,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-22 0 LINE",
-"-20 11 LINE",
+"89 690 LINE",
+"-58 0 LINE",
+"-40 0 LINE",
+"-38 11 LINE",
 "-44 11 LINE",
-"98 679 LINE",
-"110 679 LINE",
-"-29 23 LINE",
-"-17 23 LINE",
-"125 690 LINE",
-"99 690 LINE",
-"87 682 LINE",
-"-58 0 LINE"
+"101 690 LINE"
 );
 }
 );
-width = 48;
+width = 24;
 }
 );
-note = L;
+note = T;
 unicode = 004C;
 },
 {
@@ -6067,23 +6086,9 @@ unicode = 005A;
 {
 color = 4;
 glyphname = E.ss01;
-lastChange = "2020-09-26 15:43:36 +0000";
+lastChange = "2020-10-01 09:47:55 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-origin = "{0, 3}";
-target = "{1, 2}";
-type = Stem;
-},
-{
-horizontal = 1;
-origin = "{0, 2}";
-target = "{3, 3}";
-type = Stem;
-}
-);
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
 paths = (
 {
@@ -6098,28 +6103,28 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"28 0 LINE",
-"44 75 LINE",
-"0 75 LINE",
-"22 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "98 327 LINE",
 "113 402 LINE",
-"107 402 LINE",
-"78 327 LINE"
+"53 402 LINE",
+"34 327 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"167 655 LINE",
-"183 730 LINE",
-"177 730 LINE",
-"142 655 LINE"
+"173 655 LINE",
+"189 730 LINE",
+"145 730 LINE",
+"129 655 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"34 0 LINE",
+"50 75 LINE",
+"6 75 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -6170,6 +6175,26 @@ IUP[1]\011/* InterpolateUntPts */";
 width = 98;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 2}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{2, 3}";
+type = Stem;
+}
+);
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
 paths = (
 {
@@ -6184,18 +6209,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-40 0 LINE",
-"-38 11 LINE",
-"-44 11 LINE",
-"-46 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "33 340 LINE",
 "35 351 LINE",
-"20 351 LINE",
+"17 351 LINE",
 "26 340 LINE"
 );
 },
@@ -6207,6 +6223,15 @@ nodes = (
 "101 690 LINE",
 "98 679 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"-40 0 LINE",
+"-38 11 LINE",
+"-52 11 LINE",
+"-47 0 LINE"
+);
 }
 );
 width = 24;
@@ -6217,22 +6242,16 @@ note = E;
 {
 color = 4;
 glyphname = Eacute.ss01;
-lastChange = "2020-09-17 07:41:58 +0000";
+lastChange = "2020-10-01 09:49:03 +0000";
 layers = (
 {
 components = (
 {
-name = acutecomb;
-transform = "{1, 0, 0, 1, -66, -1}";
+name = E.ss01;
 },
 {
-name = E.ss01;
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{183, 730}";
+name = acutecomb;
+transform = "{1, 0, 0, 1, -66, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -6241,43 +6260,41 @@ width = 98;
 {
 components = (
 {
-name = acutecomb;
-transform = "{1, 0, 0, 1, -78, 0}";
+name = E.ss01;
 },
 {
-name = E.ss01;
-transform = "{1, 0, 0, 1, 1, 0}";
+name = acutecomb;
+transform = "{1, 0, 0, 1, -78, 0}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
-width = 25;
+width = 24;
 }
 );
 },
 {
 color = 4;
 glyphname = Ecircumflex.ss01;
-lastChange = "2020-09-17 07:42:45 +0000";
+lastChange = "2020-10-01 09:50:47 +0000";
 layers = (
 {
 components = (
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -74, 0}";
+transform = "{1, 0, 0, 1, -73, 0}";
 },
 {
 name = E.ss01;
-transform = "{1, 0, 0, 1, 9, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-width = 107;
+width = 99;
 },
 {
 components = (
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -86, -2}";
+transform = "{1, 0, 0, 1, -88, -2}";
 },
 {
 name = E.ss01;
@@ -6291,30 +6308,29 @@ width = 24;
 {
 color = 4;
 glyphname = Edieresis.ss01;
-lastChange = "2020-09-17 07:44:58 +0000";
+lastChange = "2020-10-01 09:51:40 +0000";
 layers = (
 {
 components = (
 {
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, -66, 0}";
+name = E.ss01;
 },
 {
-name = E.ss01;
-transform = "{1, 0, 0, 1, 7, 0}";
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, -66, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-width = 105;
+width = 98;
 },
 {
 components = (
 {
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, -85, 0}";
+name = E.ss01;
 },
 {
-name = E.ss01;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, -84, 0}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -6325,30 +6341,29 @@ width = 24;
 {
 color = 4;
 glyphname = Egrave.ss01;
-lastChange = "2020-09-17 07:46:42 +0000";
+lastChange = "2020-10-01 09:52:13 +0000";
 layers = (
 {
 components = (
 {
-name = gravecomb;
-transform = "{1, 0, 0, 1, 13, 0}";
+name = E.ss01;
 },
 {
-name = E.ss01;
-transform = "{1, 0, 0, 1, 18, 0}";
+name = gravecomb;
+transform = "{1, 0, 0, 1, 5, 0}";
 }
 );
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-width = 116;
+width = 98;
 },
 {
 components = (
 {
-name = gravecomb;
-transform = "{1, 0, 0, 1, 34, -1}";
+name = E.ss01;
 },
 {
-name = E.ss01;
+name = gravecomb;
+transform = "{1, 0, 0, 1, 34, 0}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -6359,7 +6374,7 @@ width = 24;
 {
 color = 4;
 glyphname = F.ss01;
-lastChange = "2020-09-26 14:57:56 +0000";
+lastChange = "2020-10-01 09:36:28 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -6385,8 +6400,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"167 655 LINE",
-"183 730 LINE",
+"173 655 LINE",
+"189 730 LINE",
 "145 730 LINE",
 "129 655 LINE"
 );
@@ -6611,25 +6626,20 @@ note = T;
 {
 color = 4;
 glyphname = L.ss01;
-lastChange = "2020-09-26 15:43:32 +0000";
+lastChange = "2020-10-01 09:42:54 +0000";
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 4}";
+origin = "{0, 10}";
+target = "{0, 2}";
 type = Stem;
 },
 {
 horizontal = 1;
-origin = "{0, 0}";
-target = down;
-type = TopGhost;
-},
-{
-origin = "{0, 1}";
-target = "{0, 5}";
+origin = "{0, 8}";
+target = "{0, 3}";
 type = Stem;
 }
 );
@@ -6638,48 +6648,36 @@ paths = (
 {
 closed = 1;
 nodes = (
-"97 730 LINE",
-"-58 0 LINE",
-"28 0 LINE",
-"44 75 LINE",
+"114 0 LINE",
+"130 75 LINE",
 "38 75 LINE",
-"177 730 LINE"
+"161 655 LINE",
+"173 655 LINE",
+"52 87 LINE",
+"132 87 LINE",
+"269 730 LINE",
+"137 730 LINE",
+"88 685 LINE",
+"-58 0 LINE"
 );
 }
 );
 userData = {
-assembly = "PUSHW[ ]\011/* 1 value pushed */
-10 
+assembly = "PUSHW[ ]\011/* 4 values pushed */
+0 1 3 4 
 CALL[ ]\011/* CallFunction */
-PUSHW[ ]\011/* 4 values pushed */
-0 12 5 14 
-CALL[ ]\011/* CallFunction */
-PUSHW[ ]\011/* 3 values pushed */
-3 5 0 
-SRP1[ ]\011/* SetRefPoint1 */
-SRP2[ ]\011/* SetRefPoint2 */
-IP[ ]\011/* InterpolatePts */
 PUSHW[ ]\011/* 1 value pushed */
 3 
-MDAP[1]\011/* MoveDirectAbsPt */
-PUSHW[ ]\011/* 2 values pushed */
-2 9 
-MIRP[10100]\011/* MoveIndirectRelPt */
+SRP0[ ]\011/* SetRefPoint0 */
+PUSHW[ ]\011/* 1 value pushed */
+2 
+MDRP[11100]\011/* MoveDirectRelPt */
 SVTCA[0]\011/* SetFreedomAndProjectionVectorToAxis */
 PUSHW[ ]\011/* 1 value pushed */
-6 
-RCVT[ ]\011/* ReadCVT */
-IF[ ]\011/* If */
-PUSHW[ ]\011/* 1 value pushed */
-6 
+4 
 MDAP[1]\011/* MoveDirectAbsPt */
-ELSE[ ]\011/* Else */
-PUSHW[ ]\011/* 2 values pushed */
-6 19 
-MIAP[0]\011/* MoveIndirectAbsPt */
-EIF[ ]\011/* EndIf */
 PUSHW[ ]\011/* 1 value pushed */
-6 
+0 
 RCVT[ ]\011/* ReadCVT */
 IF[ ]\011/* If */
 PUSHW[ ]\011/* 1 value pushed */
@@ -6687,39 +6685,31 @@ PUSHW[ ]\011/* 1 value pushed */
 MDAP[1]\011/* MoveDirectAbsPt */
 ELSE[ ]\011/* Else */
 PUSHW[ ]\011/* 2 values pushed */
-2 13 
+2 2 
 MIAP[0]\011/* MoveIndirectAbsPt */
 EIF[ ]\011/* EndIf */
-PUSHW[ ]\011/* 1 value pushed */
-6 
-SRP0[ ]\011/* SetRefPoint0 */
-PUSHW[ ]\011/* 2 values pushed */
-0 8 
-MIRP[10100]\011/* MoveIndirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-4 
-MDRP[10000]\011/* MoveDirectRelPt */
-PUSHW[ ]\011/* 1 value pushed */
-5 
-MDRP[10000]\011/* MoveDirectRelPt */
 IUP[0]\011/* InterpolateUntPts */
 IUP[1]\011/* InterpolateUntPts */";
 };
-width = 98;
+width = 184;
 },
 {
 hints = (
 {
 horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 4}";
+origin = "{0, 10}";
+target = "{0, 2}";
 type = Stem;
 },
 {
 horizontal = 1;
-origin = "{0, 0}";
-target = down;
-type = TopGhost;
+origin = "{0, 8}";
+target = "{0, 3}";
+type = Stem;
+},
+{
+place = "{-29, 8}";
+type = Stem;
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -6727,19 +6717,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"89 690 LINE",
-"-58 0 LINE",
-"-40 0 LINE",
-"-38 11 LINE",
+"-22 0 LINE",
+"-20 11 LINE",
 "-44 11 LINE",
-"101 690 LINE"
+"98 679 LINE",
+"110 679 LINE",
+"-29 23 LINE",
+"-17 23 LINE",
+"125 690 LINE",
+"99 690 LINE",
+"87 682 LINE",
+"-58 0 LINE"
 );
 }
 );
-width = 24;
+width = 48;
 }
 );
-note = T;
+note = L;
 },
 {
 color = 4;
@@ -10860,7 +10855,7 @@ unicode = 00F2;
 {
 color = 4;
 glyphname = oslash;
-lastChange = "2020-09-16 19:55:45 +0000";
+lastChange = "2020-10-01 15:49:44 +0000";
 layers = (
 {
 components = (
@@ -10873,28 +10868,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 -130 LINE",
-"82 60 LINE",
-"2 60 LINE",
-"-40 -130 LINE"
+"-14 -12 LINE",
+"66 -12 LINE",
+"84 75 LINE",
+"4 75 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"183 540 LINE",
-"225 730 LINE",
-"145 730 LINE",
-"103 540 LINE"
+"102 540 LINE",
+"182 540 LINE",
+"198 612 LINE",
+"118 612 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"116 263 LINE",
-"132 338 LINE",
-"20 338 LINE",
-"4 263 LINE"
+"41 263 LINE",
+"121 263 LINE",
+"137 338 LINE",
+"57 338 LINE"
 );
 }
 );
@@ -10911,28 +10906,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-58 -90 LINE",
-"-31 11 LINE",
-"-43 11 LINE",
-"-70 -90 LINE"
+"-49 -12 LINE",
+"-37 -12 LINE",
+"-32 11 LINE",
+"-44 11 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"79 589 LINE",
 "91 589 LINE",
-"111 679 LINE",
-"99 679 LINE",
-"79 589 LINE"
+"96 612 LINE",
+"84 612 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"40 295 LINE",
-"43 307 LINE",
-"9 307 LINE",
-"6 295 LINE"
+"5 295 LINE",
+"39 295 LINE",
+"42 307 LINE",
+"8 307 LINE"
 );
 }
 );
@@ -19083,7 +19078,7 @@ unicode = 0023;
 {
 color = 4;
 glyphname = slash;
-lastChange = "2020-09-16 15:35:06 +0000";
+lastChange = "2020-10-01 13:45:13 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -19140,8 +19135,8 @@ closed = 1;
 nodes = (
 "101 690 LINE",
 "89 690 LINE",
-"-76 -87 LINE",
-"-64 -87 LINE"
+"-68 -50 LINE",
+"-56 -50 LINE"
 );
 }
 );
@@ -19154,7 +19149,7 @@ unicode = 002F;
 {
 color = 4;
 glyphname = backslash;
-lastChange = "2020-09-16 20:25:17 +0000";
+lastChange = "2020-10-01 13:45:24 +0000";
 layers = (
 {
 components = (
@@ -19213,7 +19208,7 @@ unicode = 005C;
 {
 color = 4;
 glyphname = parenleft;
-lastChange = "2020-09-16 15:35:06 +0000";
+lastChange = "2020-10-01 13:45:37 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -19281,18 +19276,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"45 428 LINE",
+"48 440 LINE",
 "101 690 LINE",
 "95 690 LINE",
-"33 428 LINE",
-"-20 175 LINE",
-"-70 -87 LINE",
-"-64 -87 LINE",
-"-8 175 LINE"
+"36 440 LINE",
+"-15 199 LINE",
+"-62 -50 LINE",
+"-56 -50 LINE",
+"-3 199 LINE"
 );
 }
 );
-width = 25;
+width = 24;
 }
 );
 note = parenleft;
@@ -19301,7 +19296,7 @@ unicode = 0028;
 {
 color = 4;
 glyphname = parenright;
-lastChange = "2020-09-16 20:25:25 +0000";
+lastChange = "2020-10-01 13:46:07 +0000";
 layers = (
 {
 components = (
@@ -19358,11 +19353,11 @@ width = 93;
 components = (
 {
 name = parenleft;
-transform = "{-1, 0, 0, -1, 25, 603}";
+transform = "{-1, 0, 0, -1, 33, 640}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
-width = 25;
+width = 24;
 }
 );
 note = parenright;
@@ -19371,7 +19366,7 @@ unicode = 0029;
 {
 color = 4;
 glyphname = braceleft;
-lastChange = "2020-09-16 15:35:06 +0000";
+lastChange = "2020-10-01 13:46:19 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -19406,22 +19401,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"7 291 LINE",
-"-73 -87 LINE",
-"-58 -87 LINE",
-"-56 -76 LINE",
-"-59 -76 LINE",
-"19 291 LINE",
-"15 291 LINE",
-"18 303 LINE",
-"22 303 LINE",
-"102 679 LINE",
-"105 679 LINE",
+"12 310 LINE",
+"-65 -50 LINE",
+"-50 -50 LINE",
+"-48 -39 LINE",
+"-51 -39 LINE",
+"24 310 LINE",
+"20 310 LINE",
+"22 322 LINE",
+"26 322 LINE",
+"102 680 LINE",
+"105 680 LINE",
 "107 690 LINE",
 "92 690 LINE",
-"10 303 LINE",
-"7 303 LINE",
-"4 291 LINE"
+"14 322 LINE",
+"11 322 LINE",
+"9 310 LINE"
 );
 }
 );
@@ -19433,7 +19428,7 @@ unicode = 007B;
 {
 color = 4;
 glyphname = braceright;
-lastChange = "2020-09-16 20:25:33 +0000";
+lastChange = "2020-10-01 13:46:40 +0000";
 layers = (
 {
 components = (
@@ -19449,7 +19444,7 @@ width = 120;
 components = (
 {
 name = braceleft;
-transform = "{-1, 0, 0, -1, 31, 603}";
+transform = "{-1, 0, 0, -1, 39, 640}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -19461,7 +19456,7 @@ unicode = 007D;
 {
 color = 4;
 glyphname = bracketleft;
-lastChange = "2020-09-16 15:35:06 +0000";
+lastChange = "2020-10-01 13:46:51 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
@@ -19566,8 +19561,8 @@ closed = 1;
 nodes = (
 "101 690 LINE",
 "89 690 LINE",
-"-76 -87 LINE",
-"-64 -87 LINE"
+"-68 -50 LINE",
+"-56 -50 LINE"
 );
 },
 {
@@ -19582,10 +19577,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-76 -87 LINE",
-"-61 -87 LINE",
-"-59 -76 LINE",
-"-74 -76 LINE"
+"-68 -50 LINE",
+"-53 -50 LINE",
+"-51 -39 LINE",
+"-66 -39 LINE"
 );
 }
 );
@@ -19598,7 +19593,7 @@ unicode = 005B;
 {
 color = 4;
 glyphname = bracketright;
-lastChange = "2020-09-16 20:25:40 +0000";
+lastChange = "2020-10-01 13:47:12 +0000";
 layers = (
 {
 components = (
@@ -19679,7 +19674,7 @@ width = 107;
 components = (
 {
 name = bracketleft;
-transform = "{-1, 0, 0, -1, 28, 603}";
+transform = "{-1, 0, 0, -1, 36, 640}";
 }
 );
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
@@ -25533,7 +25528,7 @@ unicode = 00B8;
 {
 color = 4;
 glyphname = circumflex;
-lastChange = "2020-09-26 15:28:45 +0000";
+lastChange = "2020-10-01 09:08:58 +0000";
 layers = (
 {
 guideLines = (
@@ -25549,19 +25544,16 @@ position = "{342, 612}";
 hints = (
 {
 horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 7}";
+place = "{696, 34}";
 type = Stem;
 },
 {
 horizontal = 1;
-origin = "{0, 7}";
-target = "{0, 8}";
+place = "{730, 8}";
 type = Stem;
 },
 {
-origin = "{0, 9}";
-target = "{0, 5}";
+place = "{72, 101}";
 type = Stem;
 }
 );
@@ -25570,15 +25562,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"112 612 LINE",
-"131 697 LINE",
-"143 697 LINE",
+"113 612 LINE",
+"136 696 LINE",
+"137 696 LINE",
 "124 612 LINE",
-"164 612 LINE",
-"189 722 LINE",
-"182 730 LINE",
-"106 730 LINE",
-"97 722 LINE",
+"165 612 LINE",
+"173 730 LINE",
+"114 730 LINE",
 "72 612 LINE"
 );
 }
@@ -25589,8 +25579,7 @@ width = 105;
 hints = (
 {
 horizontal = 1;
-origin = "{0, 7}";
-target = "{0, 1}";
+place = "{690, 12}";
 type = Stem;
 }
 );
@@ -25599,15 +25588,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"84 612 LINE",
-"100 678 LINE",
-"112 678 LINE",
-"96 612 LINE",
-"108 612 LINE",
-"125 682 LINE",
-"118 690 LINE",
-"98 690 LINE",
-"89 682 LINE",
+"78 612 LINE",
+"102 665 LINE",
+"102 665 LINE",
+"104 612 LINE",
+"110 612 LINE",
+"111 690 LINE",
+"104 690 LINE",
 "72 612 LINE"
 );
 }
@@ -26346,12 +26333,6 @@ semicolon = -4;
 };
 };
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = {
-F = {
-E = 0;
-};
-bracketleft = {
-p = 15;
-};
 comma = {
 four = -87;
 quotesinglbase = 0;
