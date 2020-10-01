@@ -1,6 +1,6 @@
 # Seymaz Condensed
 
-Inspired by 'Grecian' typefaces examples from the late XIXth century. 
+Inspired by 'Grecian'/'wood' typefaces examples from the late XIXth century. 
 
 Made between Amsterdam and Geneva by Mateo Broillet http://mateobroillet.ch within the 'etc studio'. 
 
