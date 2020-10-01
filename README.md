@@ -13,3 +13,5 @@ Version beta: 2020-09-23.
 Update calt, hinting, inktraps, kerning: 2020-09-26.
 
 Update spacing, kerning: 2020-09-30.
+
+Update diacritics, .ss01: 2020-10-01.
