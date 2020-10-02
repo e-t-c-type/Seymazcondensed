@@ -1,7 +1,8 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-fox
+fox,
+m
 );
 copyright = "This Font Software is licensed under the SIL Open Font License, Version 1.1.";
 customParameters = (
@@ -10044,7 +10045,7 @@ unicode = 006C;
 {
 color = 4;
 glyphname = m;
-lastChange = "2020-09-26 15:38:19 +0000";
+lastChange = "2020-10-02 09:35:51 +0000";
 layers = (
 {
 hints = (
@@ -10303,7 +10304,7 @@ nodes = (
 "-10 0 LINE",
 "2 0 LINE",
 "129 592 LINE",
-"123 600 LINE"
+"121 600 LINE"
 );
 }
 );
@@ -20608,15 +20609,15 @@ unicode = 0027;
 },
 {
 glyphname = space;
-lastChange = "2020-09-29 09:10:28 +0000";
+lastChange = "2020-10-02 09:35:09 +0000";
 layers = (
 {
 layerId = "B64BEB12-03E1-41C2-8D0F-395888C0A328";
-width = 86;
+width = 76;
 },
 {
 layerId = "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB";
-width = 31;
+width = 27;
 }
 );
 unicode = 0020;
@@ -26249,8 +26250,8 @@ interpolationWidth = 1;
 instanceInterpolations = {
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 1;
 };
-name = "Thin Condensed Slanted";
-weightClass = Thin;
+name = "Light Condensed Slanted";
+weightClass = Light;
 },
 {
 interpolationWeight = 83;
@@ -26259,8 +26260,7 @@ instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 0.05077;
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 0.94923;
 };
-name = "Extra Light Condensed Slanted";
-weightClass = ExtraLight;
+name = "Regular Condensed Slanted";
 },
 {
 interpolationWeight = 143;
@@ -26269,8 +26269,8 @@ instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 0.14308;
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 0.85692;
 };
-name = "Ultra Light Condensed Slanted";
-weightClass = UltraLight;
+name = "Medium Condensed Slanted";
+weightClass = Medium;
 },
 {
 interpolationWeight = 230;
@@ -26279,8 +26279,8 @@ instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 0.27692;
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 0.72308;
 };
-name = "Light Condensed Slanted";
-weightClass = Light;
+name = "Demibold Slanted";
+weightClass = DemiBold;
 },
 {
 interpolationWeight = 337;
@@ -26289,7 +26289,8 @@ instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 0.44154;
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 0.55846;
 };
-name = "Regular Condensed Slanted";
+name = "Semibold Slanted";
+weightClass = SemiBold;
 },
 {
 interpolationWeight = 461;
@@ -26297,8 +26298,8 @@ instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 0.63231;
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 0.36769;
 };
-name = "Medium Condensed Slanted";
-weightClass = Medium;
+name = "Bold Condensed Slanted";
+weightClass = Bold;
 },
 {
 interpolationWeight = 589;
@@ -26306,8 +26307,8 @@ instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 0.82923;
 "DBA696BD-A337-48FC-9DA1-CD58B2C81FFB" = 0.17077;
 };
-name = "Semi Bold Condensed Slanted";
-weightClass = SemiBold;
+name = "Ultrabold Condensed Slanted";
+weightClass = UltraBold;
 },
 {
 interpolationWeight = 700;
@@ -26315,7 +26316,8 @@ interpolationWidth = 1;
 instanceInterpolations = {
 "B64BEB12-03E1-41C2-8D0F-395888C0A328" = 1;
 };
-name = "Bold Condensed Slanted";
+name = "Extrabold Condensed Slanted";
+weightClass = ExtraBold;
 }
 );
 kerning = {
