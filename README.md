@@ -17,3 +17,6 @@ Update spacing, kerning: 2020-09-30.
 Update diacritics, .ss01: 2020-10-01.
 
 Update Style Names, 'm': 2020-10-02.
+
+Update Central European diacritics, spacing, small bugs: 2020-10-05.
+
