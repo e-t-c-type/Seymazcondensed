@@ -6,6 +6,6 @@ Inspired by 'Grecian'/'wood' typefaces examples from the late XIXth century and 
 
 Made between Amsterdam and Geneva by Mateo Broillet http://mateobroillet.ch
 
-Microsite: http://mateobroillet.ch/seymaz.html
+Microsite & direct download: http://mateobroillet.ch/seymaz.html
 
 <i>Last update: Central European diacritics, spacing, small bugs on 2020-10-05.</i>
